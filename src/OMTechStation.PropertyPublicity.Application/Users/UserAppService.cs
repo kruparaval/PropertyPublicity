@@ -99,10 +99,10 @@ namespace OMTechStation.PropertyPublicity.Users
             await _userManager.DeleteAsync(user);
         }
 
-        public async Task<ListResultDto<RoleDto>> GetRoles()
+        public async Task<ListResultDto<CountryDto>> GetRoles()
         {
             var roles = await _roleRepository.GetAllListAsync();
-            return new ListResultDto<RoleDto>(ObjectMapper.Map<List<RoleDto>>(roles));
+            return new ListResultDto<CountryDto>(ObjectMapper.Map<List<CountryDto>>(roles));
         }
 
         public async Task ChangeLanguage(ChangeUserLanguageDto input)

@@ -1,0 +1,555 @@
+DEBUG 2020-07-30 13:23:56,179 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-30 13:23:58,658 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-30 13:23:58,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,702 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:23:58,708 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-30 13:23:59,784 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:23:59,832 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:23:59,832 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:23:59,832 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:24:01,086 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:24:03,525 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-30 13:24:03,905 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-30 13:24:03,963 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-30 13:24:03,987 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-07-30 13:24:04,003 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-30 13:24:04,182 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-30 13:24:04,297 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-30 13:24:04,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-07-30 13:24:04,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-30 13:24:04,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-07-30 13:24:04,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-07-30 13:24:04,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-30 13:24:04,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-30 13:24:04,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-07-30 13:24:04,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-30 13:24:04,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-07-30 13:24:04,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-07-30 13:24:04,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-07-30 13:24:14,847 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-30 13:24:18,625 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-30 13:24:19,795 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 13:24:20,612 [9    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-07-30 13:24:20,640 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-07-30 13:24:20,748 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-07-30 13:24:20,806 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:24:20,833 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 990.3808ms 302 
+INFO  2020-07-30 13:24:23,791 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:24:28,691 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-07-30 13:24:36,476 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 7950.3301ms.
+INFO  2020-07-30 13:24:36,479 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 12686.4109ms
+INFO  2020-07-30 13:24:36,480 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:24:36,532 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15783.3829ms 200 text/html; charset=utf-8
+INFO  2020-07-30 13:24:36,701 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-07-30 13:24:36,725 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-07-30 13:24:36,726 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-07-30 13:24:36,728 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-07-30 13:24:37,338 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-07-30 13:24:37,439 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/icheck-bootstrap/icheck-bootstrap.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\icheck-bootstrap\icheck-bootstrap.css'
+INFO  2020-07-30 13:24:37,440 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\toastr\toastr.css'
+INFO  2020-07-30 13:24:37,441 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 715.2376ms 200 text/css
+INFO  2020-07-30 13:24:37,441 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 712.7297ms 200 text/css
+INFO  2020-07-30 13:24:37,441 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-07-30 13:24:37,444 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2020-07-30 13:24:37,444 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3562ms 200 text/css
+INFO  2020-07-30 13:24:37,455 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/css/all.min.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\font-awesome\css\all.min.css'
+INFO  2020-07-30 13:24:37,456 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 754.9951ms 200 text/css
+INFO  2020-07-30 13:24:37,457 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.min.css'
+INFO  2020-07-30 13:24:37,457 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118.9593ms 200 text/css
+INFO  2020-07-30 13:24:37,462 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=4lZM0wjJ2dQ7A_s0DqJZvDRfKrl2g7nHv4nvpfkfmQw  
+INFO  2020-07-30 13:24:37,463 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\css\style.css'
+INFO  2020-07-30 13:24:37,464 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.6561ms 200 text/css
+INFO  2020-07-30 13:24:37,481 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/css/adminlte.min.css'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\admin-lte\dist\css\adminlte.min.css'
+INFO  2020-07-30 13:24:37,524 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 798.5871ms 200 text/css
+INFO  2020-07-30 13:24:37,532 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-07-30 13:24:37,534 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-07-30 13:24:37,552 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\jquery\jquery.js'
+INFO  2020-07-30 13:24:37,552 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 19.8374ms 200 application/javascript
+INFO  2020-07-30 13:24:37,568 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-07-30 13:24:37,570 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-07-30 13:24:37,573 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-07-30 13:24:37,574 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/block-ui/jquery.blockUI.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\block-ui\jquery.blockUI.js'
+INFO  2020-07-30 13:24:37,574 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4385ms 200 application/javascript
+INFO  2020-07-30 13:24:37,578 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/admin-lte/dist/js/adminlte.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\admin-lte\dist\js\adminlte.js'
+INFO  2020-07-30 13:24:37,578 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.288ms 200 application/javascript
+INFO  2020-07-30 13:24:37,579 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/spin/spin.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\spin\spin.js'
+INFO  2020-07-30 13:24:37,579 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.2498ms 200 application/javascript
+INFO  2020-07-30 13:24:37,581 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/bootstrap/dist/js/bootstrap.bundle.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\bootstrap\dist\js\bootstrap.bundle.js'
+INFO  2020-07-30 13:24:37,581 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.8994ms 200 application/javascript
+INFO  2020-07-30 13:24:37,660 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-07-30 13:24:37,661 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-07-30 13:24:37,660 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-07-30 13:24:37,662 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-07-30 13:24:37,662 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/spin/jquery.spin.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs-ext\spin\jquery.spin.js'
+INFO  2020-07-30 13:24:37,662 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.573ms 200 application/javascript
+INFO  2020-07-30 13:24:37,662 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\sweetalert\sweetalert.min.js'
+INFO  2020-07-30 13:24:37,663 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0491ms 200 application/javascript
+INFO  2020-07-30 13:24:37,664 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\toastr\toastr.min.js'
+INFO  2020-07-30 13:24:37,664 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7146ms 200 application/javascript
+INFO  2020-07-30 13:24:37,669 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/moment/moment-with-locales.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\moment\moment-with-locales.js'
+INFO  2020-07-30 13:24:37,669 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.538ms 200 application/javascript
+INFO  2020-07-30 13:24:37,677 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-07-30 13:24:37,679 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-07-30 13:24:37,681 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2020-07-30 13:24:37,682 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2339ms 200 application/javascript
+INFO  2020-07-30 13:24:37,682 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2020-07-30 13:24:37,682 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.2642ms 200 application/javascript
+INFO  2020-07-30 13:24:37,710 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-07-30 13:24:37,713 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-07-30 13:24:37,714 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-07-30 13:24:37,714 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-07-30 13:24:37,714 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2020-07-30 13:24:37,715 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2020-07-30 13:24:37,715 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4275ms 200 application/javascript
+INFO  2020-07-30 13:24:37,715 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.1172ms 200 application/javascript
+INFO  2020-07-30 13:24:37,715 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-07-30 13:24:37,716 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2020-07-30 13:24:37,716 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.3858ms 200 application/javascript
+INFO  2020-07-30 13:24:37,717 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.js'
+INFO  2020-07-30 13:24:37,717 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.6273ms 200 application/javascript
+INFO  2020-07-30 13:24:37,717 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2020-07-30 13:24:37,717 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.3417ms 200 application/javascript
+INFO  2020-07-30 13:24:37,764 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-07-30 13:24:37,764 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=-lEHwKbaliEqhcFlf0r3Ijy5GgGSbZx5nOVM8gGO3iw  
+INFO  2020-07-30 13:24:37,767 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/jquery-validate/jquery.validate.unobtrusive.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\jquery-validate\jquery.validate.unobtrusive.js'
+INFO  2020-07-30 13:24:37,767 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.5328ms 200 application/javascript
+INFO  2020-07-30 13:24:37,768 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637317122442992014  
+INFO  2020-07-30 13:24:37,768 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\js\main.js'
+INFO  2020-07-30 13:24:37,768 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.9414ms 200 application/javascript
+INFO  2020-07-30 13:24:37,768 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637317122442992014  
+INFO  2020-07-30 13:24:37,772 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=QcQaP2tYhyMf9nF9oQ73Fek6Q4zGCxX2-VNI5iPnEaU  
+INFO  2020-07-30 13:24:37,774 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2020-07-30 13:24:37,774 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.3826ms 200 application/javascript
+INFO  2020-07-30 13:24:37,779 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 13:24:37,779 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 13:24:37,829 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-30 13:24:37,845 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-30 13:24:38,163 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-30 13:24:38,164 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 334.8546ms
+INFO  2020-07-30 13:24:38,164 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 13:24:38,164 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 396.0941ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-30 13:24:38,366 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-07-30 13:24:38,503 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs-ext\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2020-07-30 13:24:38,503 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 137.5118ms 200 image/png
+INFO  2020-07-30 13:24:38,627 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-30 13:24:38,628 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 783.172ms
+INFO  2020-07-30 13:24:38,628 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 13:24:38,629 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 861.1166ms 200 application/x-javascript
+INFO  2020-07-30 13:24:40,385 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-07-30 13:24:40,587 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/libs/font-awesome/webfonts/fa-solid-900.woff2'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\libs\font-awesome\webfonts\fa-solid-900.woff2'
+INFO  2020-07-30 13:24:40,588 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 204.7066ms 200 font/woff2
+INFO  2020-07-30 13:24:40,863 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-07-30 13:24:40,923 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-07-30 13:24:40,924 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 60.9125ms 200 image/x-icon
+INFO  2020-07-30 13:31:32,576 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-07-30 13:31:32,590 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:31:32,615 [28   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:31:44,302 [35   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-07-30 13:31:44,417 [36   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-30 13:31:44,452 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 11836.5345ms
+INFO  2020-07-30 13:31:44,452 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:31:44,454 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11879.6554ms 200 application/json; charset=utf-8
+INFO  2020-07-30 13:31:44,508 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 13:31:44,633 [36   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-30 13:31:44,634 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:31:44,640 [36   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:31:44,723 [36   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-30 13:31:46,183 [28   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 1542.4127ms
+INFO  2020-07-30 13:31:46,200 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+ERROR 2020-07-30 13:31:47,313 [28   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Method not found: 'System.__Canon AutoMapper.IMapper.Map(System.Object)'.
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at OMTechStation.PropertyPublicity.Sessions.SessionAppService.GetCurrentLoginInformations() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Application\Sessions\SessionAppService.cs:line 25
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at OMTechStation.PropertyPublicity.Web.Views.Shared.Components.RightNavbarUserArea.RightNavbarUserAreaViewComponent.InvokeAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Components\RightNavbarUserArea\RightNavbarUserAreaViewComponent.cs:line 23
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__Header_RightNavbar.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.RightNavbar.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Header.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.cshtml:line 3
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OMTechStation.PropertyPublicity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-07-30 13:31:47,745 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3239.1031ms 500 text/html; charset=utf-8
+INFO  2020-07-30 13:31:48,293 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-07-30 13:31:48,344 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.6863ms 404 
+DEBUG 2020-07-30 13:37:26,119 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-30 13:37:27,117 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-30 13:37:27,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,162 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,163 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:27,172 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-30 13:37:27,999 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:37:28,001 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:37:28,001 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:37:28,001 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 13:37:29,810 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 13:37:32,554 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-30 13:37:32,849 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-30 13:37:32,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-30 13:37:32,974 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-07-30 13:37:32,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-30 13:37:33,535 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-30 13:37:33,862 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-30 13:37:34,033 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-07-30 13:37:34,033 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-30 13:37:34,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-07-30 13:37:34,045 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-07-30 13:37:34,046 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-30 13:37:34,046 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-30 13:37:34,046 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-07-30 13:37:34,046 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-30 13:37:34,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-07-30 13:37:34,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-07-30 13:37:34,047 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-07-30 13:37:47,582 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-30 13:37:53,685 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-30 13:37:54,753 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 13:38:02,934 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-30 13:38:02,939 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:38:03,688 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:38:04,990 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-30 13:38:15,112 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 11390.175ms
+INFO  2020-07-30 13:38:15,131 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+ERROR 2020-07-30 13:38:16,583 [5    ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Method not found: 'System.__Canon AutoMapper.IMapper.Map(System.Object)'.
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at OMTechStation.PropertyPublicity.Sessions.SessionAppService.GetCurrentLoginInformations() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Application\Sessions\SessionAppService.cs:line 25
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at OMTechStation.PropertyPublicity.Web.Views.Shared.Components.RightNavbarUserArea.RightNavbarUserAreaViewComponent.InvokeAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Components\RightNavbarUserArea\RightNavbarUserAreaViewComponent.cs:line 23
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__Header_RightNavbar.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.RightNavbar.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Header.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.cshtml:line 3
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OMTechStation.PropertyPublicity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-07-30 13:38:17,010 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22260.8234ms 500 text/html; charset=utf-8
+INFO  2020-07-30 13:38:50,492 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-07-30 13:38:50,634 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:38:50,761 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:38:55,848 [17   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-07-30 13:38:56,938 [17   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1139.5391ms.
+INFO  2020-07-30 13:38:56,942 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 6178.2678ms
+INFO  2020-07-30 13:38:56,946 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:38:56,959 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6463.374ms 200 text/html; charset=utf-8
+INFO  2020-07-30 13:38:57,088 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637317130538662856  
+INFO  2020-07-30 13:38:57,096 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637317130538662856  
+INFO  2020-07-30 13:38:57,122 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 13:38:57,141 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 13:38:57,189 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-30 13:38:57,205 [17   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-30 13:38:57,862 [17   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-30 13:38:57,868 [17   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 658.9391ms
+INFO  2020-07-30 13:38:57,871 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 13:38:57,875 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 788.838ms 200 application/x-javascript
+INFO  2020-07-30 13:38:59,204 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-30 13:38:59,210 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2018.0071ms
+INFO  2020-07-30 13:38:59,217 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 13:38:59,222 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2125.0882ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-30 13:39:00,770 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 299
+INFO  2020-07-30 13:39:00,791 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:39:00,862 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:39:02,718 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-07-30 13:39:02,834 [24   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-30 13:39:02,890 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 2024.9985ms
+INFO  2020-07-30 13:39:02,896 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:39:02,901 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2131.399ms 200 application/json; charset=utf-8
+INFO  2020-07-30 13:39:03,038 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 13:39:03,105 [18   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-30 13:39:03,119 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 13:39:03,128 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 13:39:03,173 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-30 13:39:04,583 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 1452.1882ms
+INFO  2020-07-30 13:39:04,587 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+ERROR 2020-07-30 13:39:04,770 [23   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Method not found: 'System.__Canon AutoMapper.IMapper.Map(System.Object)'.
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at OMTechStation.PropertyPublicity.Sessions.SessionAppService.GetCurrentLoginInformations() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Application\Sessions\SessionAppService.cs:line 25
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at OMTechStation.PropertyPublicity.Web.Views.Shared.Components.RightNavbarUserArea.RightNavbarUserAreaViewComponent.InvokeAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Components\RightNavbarUserArea\RightNavbarUserAreaViewComponent.cs:line 23
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__Header_RightNavbar.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.RightNavbar.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Header.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.cshtml:line 3
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OMTechStation.PropertyPublicity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-07-30 13:39:04,827 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1873.822ms 500 text/html; charset=utf-8
+DEBUG 2020-07-30 16:36:29,485 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-30 16:36:31,701 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-30 16:36:31,789 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:31,819 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-30 16:36:32,722 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 16:36:32,750 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 16:36:32,750 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 16:36:32,750 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-30 16:36:34,615 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-30 16:36:37,577 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-30 16:36:37,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-30 16:36:38,047 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-30 16:36:38,077 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-07-30 16:36:38,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-30 16:36:38,286 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-30 16:36:38,415 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-30 16:36:38,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2020-07-30 16:36:38,779 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-30 16:36:38,789 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-07-30 16:36:38,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-07-30 16:36:38,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-07-30 16:36:53,512 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-30 16:36:57,243 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-30 16:36:58,535 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 16:37:01,054 [4    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-07-30 16:37:01,104 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-07-30 16:37:01,296 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2740.7675ms 302 
+INFO  2020-07-30 16:37:01,330 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-07-30 16:37:01,444 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 16:37:04,387 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 16:37:09,054 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-07-30 16:37:16,535 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 7656.1543ms.
+INFO  2020-07-30 16:37:16,542 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 12154.1594ms
+INFO  2020-07-30 16:37:16,545 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 16:37:16,728 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 15397.4974ms 200 text/html; charset=utf-8
+INFO  2020-07-30 16:37:18,529 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637317237984173574  
+INFO  2020-07-30 16:37:18,549 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637317237984173574  
+INFO  2020-07-30 16:37:18,693 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 16:37:18,693 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 16:37:18,728 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-07-30 16:37:18,784 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-07-30 16:37:19,526 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-07-30 16:37:19,528 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 799.0621ms
+INFO  2020-07-30 16:37:19,528 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-07-30 16:37:19,529 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 980.3664ms 200 application/x-javascript; charset=utf-8
+INFO  2020-07-30 16:37:20,284 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-07-30 16:37:20,288 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1502.8365ms
+INFO  2020-07-30 16:37:20,288 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-07-30 16:37:20,289 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1760.5589ms 200 application/x-javascript
+INFO  2020-07-30 16:37:34,386 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-07-30 16:37:34,402 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 16:37:34,439 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 16:37:40,490 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-07-30 16:37:41,049 [4    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-30 16:37:41,221 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 6781.2561ms
+INFO  2020-07-30 16:37:41,221 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 16:37:41,223 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6838.4581ms 200 application/json; charset=utf-8
+INFO  2020-07-30 16:37:41,325 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-07-30 16:37:41,590 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-07-30 16:37:41,590 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-07-30 16:37:41,600 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-07-30 16:37:41,894 [12   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-07-30 16:37:46,690 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 5089.9369ms
+INFO  2020-07-30 16:37:46,701 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+ERROR 2020-07-30 16:37:50,036 [11   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Method not found: 'System.__Canon AutoMapper.IMapper.Map(System.Object)'.
+   at Abp.AutoMapper.AutoMapperObjectMapper.Map[TDestination](Object source)
+   at OMTechStation.PropertyPublicity.Sessions.SessionAppService.GetCurrentLoginInformations() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Application\Sessions\SessionAppService.cs:line 25
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at OMTechStation.PropertyPublicity.Web.Views.Shared.Components.RightNavbarUserArea.RightNavbarUserAreaViewComponent.InvokeAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Components\RightNavbarUserArea\RightNavbarUserAreaViewComponent.cs:line 23
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsyncCore(ObjectMethodExecutor executor, ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentInvoker.InvokeAsync(ViewComponentContext context)
+   at Microsoft.AspNetCore.Mvc.ViewComponents.DefaultViewComponentHelper.InvokeCoreAsync(ViewComponentDescriptor descriptor, Object arguments)
+   at AspNetCore.Views_Shared_Layout__Header_RightNavbar.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.RightNavbar.cshtml:line 5
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Header.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Header.cshtml:line 3
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.RenderPartialCoreAsync(String partialViewName, Object model, ViewDataDictionary viewData, TextWriter writer)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.HtmlHelper.PartialAsync(String partialViewName, Object model, ViewDataDictionary viewData)
+   at AspNetCore.Views_Shared_Layout__Layout.<>c__DisplayClass9_0.<<ExecuteAsync>b__1>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 30
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Views_Shared_Layout__Layout.ExecuteAsync() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\Views\Shared\Layout\_Layout.cshtml:line 17
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|27_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at OMTechStation.PropertyPublicity.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2020-07-30 16:37:50,460 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9135.0405ms 500 text/html; charset=utf-8
+INFO  2020-07-30 16:37:51,666 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2020-07-30 16:37:51,709 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 42.5519ms 404 

@@ -14,11 +14,11 @@ namespace OMTechStation.PropertyPublicity.Roles.Dto
             CreateMap<Permission, string>().ConvertUsing(r => r.Name);
             CreateMap<RolePermissionSetting, string>().ConvertUsing(r => r.Name);
 
-            CreateMap<CreateRoleDto, Role>();
+            CreateMap<CreateCountryDto, Role>();
 
-            CreateMap<RoleDto, Role>();
+            CreateMap<CountryDto, Role>();
 
-            CreateMap<Role, RoleDto>().ForMember(x => x.GrantedPermissions,
+            CreateMap<Role, CountryDto>().ForMember(x => x.GrantedPermissions,
                 opt => opt.MapFrom(x => x.Permissions.Where(p => p.IsGranted)));
 
             CreateMap<Role, RoleListDto>();
