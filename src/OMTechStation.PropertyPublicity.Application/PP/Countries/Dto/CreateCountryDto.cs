@@ -8,9 +8,9 @@ namespace OMTechStation.PropertyPublicity.PP.Countries.Dto
     public class CreateCountryDto
     {
         [Required]
-        [StringLength(Country.MAXLENGTHCOUNTRYNAME)]
+        [StringLength(50)]
         public string Name { get; set; }
-        public string IsActive { get; set; }
+        public bool IsActive { get; set; }
 
     }
 }

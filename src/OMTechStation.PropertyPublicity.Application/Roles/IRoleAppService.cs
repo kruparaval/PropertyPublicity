@@ -5,7 +5,7 @@ using OMTechStation.PropertyPublicity.Roles.Dto;
 
 namespace OMTechStation.PropertyPublicity.Roles
 {
-    public interface IRoleAppService : IAsyncCrudAppService<CountryDto, int, PagedRoleResultRequestDto, CreateCountryDto, CountryDto>
+    public interface IRoleAppService : IAsyncCrudAppService<RoleDto, int, PagedRoleResultRequestDto, CreateRoleDto, RoleDto>
     {
         Task<ListResultDto<PermissionDto>> GetAllPermissions();
 

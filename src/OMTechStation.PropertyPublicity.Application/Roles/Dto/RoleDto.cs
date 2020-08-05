@@ -7,7 +7,7 @@ using OMTechStation.PropertyPublicity.Authorization.Roles;
 
 namespace OMTechStation.PropertyPublicity.Roles.Dto
 {
-    public class CountryDto : EntityDto<int>
+    public class RoleDto : EntityDto<int>
     {
         [Required]
         [StringLength(AbpRoleBase.MaxNameLength)]

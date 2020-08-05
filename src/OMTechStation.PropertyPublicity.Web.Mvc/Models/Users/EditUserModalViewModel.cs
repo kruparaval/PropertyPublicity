@@ -9,9 +9,9 @@ namespace OMTechStation.PropertyPublicity.Web.Models.Users
     {
         public UserDto User { get; set; }
 
-        public IReadOnlyList<CountryDto> Roles { get; set; }
+        public IReadOnlyList<RoleDto> Roles { get; set; }
 
-        public bool UserIsInRole(CountryDto role)
+        public bool UserIsInRole(RoleDto role)
         {
             return User.RoleNames != null && User.RoleNames.Any(r => r == role.NormalizedName);
         }

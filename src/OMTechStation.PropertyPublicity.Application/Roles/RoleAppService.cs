@@ -18,7 +18,7 @@ using Microsoft.EntityFrameworkCore;
 namespace OMTechStation.PropertyPublicity.Roles
 {
     [AbpAuthorize(PermissionNames.Pages_Roles)]
-    public class RoleAppService : AsyncCrudAppService<Role, CountryDto, int, PagedRoleResultRequestDto, CreateCountryDto, CountryDto>, IRoleAppService
+    public class RoleAppService : AsyncCrudAppService<Role, RoleDto, int, PagedRoleResultRequestDto, CreateRoleDto, RoleDto>, IRoleAppService
     {
         private readonly RoleManager _roleManager;
         private readonly UserManager _userManager;
@@ -30,7 +30,7 @@ namespace OMTechStation.PropertyPublicity.Roles
             _userManager = userManager;
         }
 
-        public override async Task<CountryDto> CreateAsync(CreateCountryDto input)
+        public override async Task<RoleDto> CreateAsync(CreateRoleDto input)
         {
             CheckCreatePermission();
 
@@ -62,7 +62,7 @@ namespace OMTechStation.PropertyPublicity.Roles
             return new ListResultDto<RoleListDto>(ObjectMapper.Map<List<RoleListDto>>(roles));
         }
 
-        public override async Task<CountryDto> UpdateAsync(CountryDto input)
+        public override async Task<RoleDto> UpdateAsync(RoleDto input)
         {
             CheckUpdatePermission();
 

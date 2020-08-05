@@ -5,6 +5,6 @@ namespace OMTechStation.PropertyPublicity.Web.Models.Users
 {
     public class UserListViewModel
     {
-        public IReadOnlyList<CountryDto> Roles { get; set; }
+        public IReadOnlyList<RoleDto> Roles { get; set; }
     }
 }
