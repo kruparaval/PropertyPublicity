@@ -1,0 +1,32 @@
+﻿@using OMTechStation.PropertyPublicity.Web.PP.Models.States
+@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+@model EditStateModelViewModel
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditState")))
+<form name="StateEditForm" state="form" class="form-horizontal">
+    <input type="hidden" name="Id" value="@Model.State.Id" />
+    <div class="modal-body">
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="statename">@L("StateName")</label>
+            <div class="col-md-9">
+                <input id="statename" class="form-control" type="text" name="Name" value="@Model.State.Name") required maxlength="32" minlength="2">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-md-3 col-form-label">@L("IsActive")</label>
+            <div class="col-md-9">
+                        <div class="col-md-6">
+                            <input type="checkbox" name="IsActive" value="@Model.State.IsActive" id="@Model.State.IsActive")" @(Model.State.IsActive ? "checked" : "") />
+                            <label for="@Model.State.IsActive")"></label>
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+</form>
+
+<script src="~/view-resources/Views/States/_EditModal.js" asp-append-version="true"></script>

@@ -1,21 +1,21 @@
 ﻿(function ($) {
-    var _countryService = abp.services.app.country,
+    var _stateService = abp.services.app.state,
         l = abp.localization.getSource('PropertyPublicity'),
-        _$modal = $('#CountryCreateModal'),
+        _$modal = $('#StateCreateModal'),
         _$form = _$modal.find('form'),
-        _$table = $('#CountriesTable');
+        _$table = $('#StatesTable');
 
 
-    var _$countriesTable = _$table.DataTable({
+    var _$statesTable = _$table.DataTable({
         paging: true,
         serverSide: true,
         ajax: function (data, callback, settings) {
-            var filter = $('#CountrySearchForm').serializeFormToObject(true);
+            var filter = $('#StateSearchForm').serializeFormToObject(true);
             filter.maxResultCount = data.length;
             filter.skipCount = data.start;
 
             abp.ui.setBusy(_$table);
-            _countryService.getAll(filter).done(function (result) {
+            _stateService.getAll(filter).done(function (result) {
                 callback({
                     recordsTotal: result.totalCount,
                     recordsFiltered: result.totalCount,
@@ -29,7 +29,7 @@
             {
                 name: 'refresh',
                 text: '<i class="fas fa-redo-alt"></i>',
-                action: () => _$countriesTable.draw(false)
+                action: () => _$statesTable.draw(false)
             }
         ],
         responsive: {
@@ -61,10 +61,10 @@
                 defaultContent: '',
                 render: (data, type, row, meta) => {
                     return [
-                        `   <button type="button" class="btn btn-sm bg-secondary edit-country" data-country-id="${row.id}" data-toggle="modal" data-target="#CountryEditModal">`,
+                        `   <button type="button" class="btn btn-sm bg-secondary edit-state" data-state-id="${row.id}" data-toggle="modal" data-target="#StateEditModal">`,
                         `       <i class="fas fa-pencil-alt"></i> ${l('Edit')}`,
                         '   </button>',
-                        `   <button type="button" class="btn btn-sm bg-danger delete-country" data-country-id="${row.id}" data-country-name="${row.name}">`,
+                        `   <button type="button" class="btn btn-sm bg-danger delete-state" data-state-id="${row.id}" data-state-name="${row.name}">`,
                         `       <i class="fas fa-trash"></i> ${l('Delete')}`,
                         '   </button>',
                     ].join('');
@@ -80,70 +80,70 @@
             return;
         }
 
-        var country = _$form.serializeFormToObject();
-        country.grantedPermissions = [];
+        var state = _$form.serializeFormToObject();
+        state.grantedPermissions = [];
         var _$permissionCheckboxes = _$form[0].querySelectorAll("input[name='permission']:checked");
         if (_$permissionCheckboxes) {
             for (var permissionIndex = 0; permissionIndex < _$permissionCheckboxes.length; permissionIndex++) {
                 var _$permissionCheckbox = $(_$permissionCheckboxes[permissionIndex]);
-                country.grantedPermissions.push(_$permissionCheckbox.val());
+                state.grantedPermissions.push(_$permissionCheckbox.val());
             }
         }
 
        
         abp.ui.setBusy(_$modal);
-        _countryService
-            .create(country)
+        _stateService
+            .create(state)
             .done(function () {
                 _$modal.modal('hide');
                 _$form[0].reset();
                 abp.notify.info(l('SavedSuccessfully'));
-                _$countriesTable.ajax.reload();
+                _$statesTable.ajax.reload();
             })
             .always(function () {
                 abp.ui.clearBusy(_$modal);
             });
     });
 
-    $(document).on('click', '.delete-country', function () {
-        var countryId = $(this).attr("data-country-id");
-        var countryName = $(this).attr('data-country-name');
+    $(document).on('click', '.delete-state', function () {
+        var stateId = $(this).attr("data-state-id");
+        var stateName = $(this).attr('data-state-name');
 
-        deleteCountry(countryId, countryName);
+        deleteState(stateId, stateName);
     });
 
-    $(document).on('click', '.edit-country', function (e) {
-        var countryId = $(this).attr("data-country-id");
+    $(document).on('click', '.edit-state', function (e) {
+        var stateId = $(this).attr("data-state-id");
 
         e.preventDefault();
         abp.ajax({
-            url: abp.appPath + 'Countries/EditModal?countryId=' + countryId,
+            url: abp.appPath + 'States/EditModal?stateId=' + stateId,
             type: 'POST',
             dataType: 'html',
             success: function (content) {
-                $('#CountryEditModal div.modal-content').html(content);
+                $('#StateEditModal div.modal-content').html(content);
             },
             error: function (e) { }
         })
     });
 
-    abp.event.on('country.edited', (data) => {
-        _$countriesTable.ajax.reload();
+    abp.event.on('state.edited', (data) => {
+        _$statesTable.ajax.reload();
     });
 
-    function deleteCountry(countryId, countryName) {
+    function deleteState(stateId, stateName) {
         abp.message.confirm(
             abp.utils.formatString(
                 l('AreYouSureWantToDelete'),
-                countryName),
+                stateName),
             null,
             (isConfirmed) => {
                 if (isConfirmed) {
-                    _countryService.delete({
-                        id: countryId
+                    _stateService.delete({
+                        id: stateId
                     }).done(() => {
                         abp.notify.info(l('SuccessfullyDeleted'));
-                        _$countriesTable.ajax.reload();
+                        _$statesTable.ajax.reload();
                     });
                 }
             }
@@ -157,12 +157,12 @@
     });
 
     $('.btn-search').on('click', (e) => {
-        _$countriesTable.ajax.reload();
+        _$statesTable.ajax.reload();
     });
 
     $('.txt-search').on('keypress', (e) => {
         if (e.which == 13) {
-            _$countriesTable.ajax.reload();
+            _$statesTable.ajax.reload();
             return false;
         }
     });

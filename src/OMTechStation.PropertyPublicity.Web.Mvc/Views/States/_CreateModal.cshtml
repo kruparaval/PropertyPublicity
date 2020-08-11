@@ -1,0 +1,30 @@
+﻿@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+@model OMTechStation.PropertyPublicity.Web.PP.Models.States.StateListViewModel
+@{
+    Layout = null;
+}
+<div class="modal fade" id="StateCreateModal" tabindex="-1" State="dialog" aria-labelledby="StateCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" state="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewState")))
+            <form name="StateCreateForm" state="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="statename">@L("StateName")</label>
+                        <div class="col-md-9">
+                            <input id="statename" type="text" name="Name" class="form-control" required maxlength="32" minlength="2">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label" for="CreateUserIsActive">@L("IsActive")</label>
+                        <div class="col-md-9">
+                            <input type="checkbox" name="IsActive" value="true" id="CreateUserIsActive" checked />
+                        </div>
+                    </div>
+                </div>
+
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>

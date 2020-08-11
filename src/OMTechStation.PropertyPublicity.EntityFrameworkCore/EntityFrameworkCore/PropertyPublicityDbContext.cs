@@ -11,7 +11,10 @@ namespace OMTechStation.PropertyPublicity.EntityFrameworkCore
     {
         /* Define a DbSet for each entity of the application */
         public DbSet<Country> Countries { get; set; }
-        
+
+        public DbSet<State> States { get; set; }
+
+
         public PropertyPublicityDbContext(DbContextOptions<PropertyPublicityDbContext> options)
             : base(options)
         {
