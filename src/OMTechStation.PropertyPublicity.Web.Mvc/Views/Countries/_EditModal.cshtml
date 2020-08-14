@@ -1,6 +1,6 @@
 ﻿@using OMTechStation.PropertyPublicity.Web.PP.Models.Countries
 @using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
-@model EditCountryModelViewModel
+@model EditCountryModalViewModel
 @{
     Layout = null;
 }
@@ -11,20 +11,26 @@
         <div class="form-group row required">
             <label class="col-md-3 col-form-label" for="countryname">@("CountryName")</label>
             <div class="col-md-9">
-                <input id="countryname" class="form-control" type="text" name="Name" value="@Model.Country.Name") required maxlength="32" minlength="2">
+                <input id="countryname" class="form-control" type="text" name="Name" value="@Model.Country.Name" required maxlength="32" minlength="2">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-md-3 col-form-label">@L("IsActive")</label>
+            <label class="col-md-3 col-form-label" for="IsActive">@L("IsActive")</label>
             <div class="col-md-9">
-                        <div class="col-md-6">
-                            <input type="checkbox" name="IsActive" value="@Model.Country.IsActive" id="@Model.Country.IsActive")" @(Model.Country.IsActive ? "checked" : "") />
-                            <label for="@Model.Country.IsActive")"></label>
-                        </div>
-                    
-                
+                <input id="IsActive" type="checkbox" name="IsActive" value="true" @(Model.Country.IsActive ? "checked" : "") />
             </div>
         </div>
+        <!--test-->
+        @*<div class="form-group row">
+            <label class="col-md-3 col-form-label">@L("IsActive")</label>
+            <div class="col-md-9">
+                <div class="col-md-6">
+                    <input type="checkbox" name="IsActive" value=""
+                           id="checkbox_@Model.Country.IsActive"  />
+                    <label for="checkbox_@Model.Country.IsActive"></label>
+                </div>
+            </div>
+        </div>*@
     </div>
     @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
 </form>

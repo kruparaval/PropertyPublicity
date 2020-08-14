@@ -29,10 +29,11 @@ namespace OMTechStation.PropertyPublicity.Web.PP.Controllers
             return View(model);
         }
 
-        public async Task<ActionResult> EditModal(int roleId)
+        public async Task<ActionResult> EditModal(int countryId)
         {
-            var output = await _CountryAppService.GetCountryForEdit(new EntityDto(roleId));
-            var model = ObjectMapper.Map<EditRoleModalViewModel>(output);
+
+            var output = await _CountryAppService.GetCountryForEdit(new EntityDto(countryId));
+            var model = ObjectMapper.Map<EditCountryModalViewModel>(output);
 
             return PartialView("_EditModal", model);
         }

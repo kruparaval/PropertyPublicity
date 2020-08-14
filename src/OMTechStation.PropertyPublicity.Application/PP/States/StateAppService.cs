@@ -19,7 +19,6 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
     public class StateAppService : AsyncCrudAppService<State, StateDto, int, PageStateResultRequestDto, CreateStateDto, StateDto>, IStateAppService
     {
         private readonly IRepository<State> _stateRepository;
-        private object state;
 
         public StateAppService(IRepository<State> stateRepository) : base(stateRepository)
         {
@@ -48,7 +47,7 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
 
         public async Task<GetStateForEditOutput> GetStateForEdit(EntityDto input)
         {
-            var country = await _stateRepository.GetAsync(input.Id);
+            var state = await _stateRepository.GetAsync(input.Id);
             var StateEditDto = ObjectMapper.Map<StateEditDto>(state);
             return new GetStateForEditOutput
             {

@@ -51,7 +51,9 @@
             {
                 targets: 2,
                 data: 'IsActive',
-                sortable: false
+                sortable: false,
+                render: data => `<input type="checkbox" disabled ${data ? 'checked' : ''}>`
+
             },
             {
                 targets: 3,

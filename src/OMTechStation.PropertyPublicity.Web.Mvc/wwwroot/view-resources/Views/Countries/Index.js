@@ -50,9 +50,10 @@
             },
             {
                 targets: 2,
-                data: 'IsActive',
-                sortable: false
-            },
+                data: 'isActive',
+                sortable: false,
+                render: data => `<span class="fa fa-${data ? 'check' : 'times'}" style="color:${data ? 'green' : 'red'}"></span>`
+            },            
             {
                 targets: 3,
                 data: null,
