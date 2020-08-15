@@ -8,17 +8,7 @@
         if (!_$form.valid()) {
             return;
         }
- 
         var state = _$form.serializeFormToObject();
-        state.grantedPermissions = [];
-        var _$permissionCheckboxes = _$form[0].querySelectorAll("input[name='permission']:checked");
-        if (_$permissionCheckboxes) {
-            for (var permissionIndex = 0; permissionIndex < _$permissionCheckboxes.length; permissionIndex++) {
-                var _$permissionCheckbox = $(_$permissionCheckboxes[permissionIndex]);
-                state.grantedPermissions.push(_$permissionCheckbox.val());
-            }
-        }
-
         abp.ui.setBusy(_$form);
         _stateService.update(state).done(function () {
             _$modal.modal('hide');

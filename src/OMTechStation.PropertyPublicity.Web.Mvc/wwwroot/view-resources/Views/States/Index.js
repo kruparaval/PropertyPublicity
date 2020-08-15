@@ -50,9 +50,9 @@
             },
             {
                 targets: 2,
-                data: 'IsActive',
+                data: 'i  +sActive',
                 sortable: false,
-                render: data => `<input type="checkbox" disabled ${data ? 'checked' : ''}>`
+                render: data => `<span class="fa fa-${data ? 'check' : 'times'}" style="color:${data ? 'green' : 'red'}"></span>`
 
             },
             {

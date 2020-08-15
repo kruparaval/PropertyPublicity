@@ -12,7 +12,7 @@ namespace OMTechStation.PropertyPublicity.PP.States
     {
 
         Task<GetStateForEditOutput> GetStateForEdit(EntityDto input);
-        Task<ListResultDto<StateListDto>> GetCountriesAsync(GetStateInput input);
+        Task<ListResultDto<StateListDto>> GetStatesAsync(GetStateInput input);
     }
 }
 

@@ -55,14 +55,14 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
             };
         }
 
-        public async Task<ListResultDto<StateListDto>> GetCountriesAsync(GetStateInput input)
+        public async Task<ListResultDto<StateListDto>> GetStatesAsync(GetStateInput input)
         {
-            var roles = await Repository.GetAll().WhereIf(
+            var state = await Repository.GetAll().WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();
 
-            return new ListResultDto<StateListDto>(ObjectMapper.Map<List<StateListDto>>(roles));
+            return new ListResultDto<StateListDto>(ObjectMapper.Map<List<StateListDto>>(state));
         }
     }
 }                                                                                                                                                               

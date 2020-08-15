@@ -56,12 +56,12 @@ namespace OMTechStation.PropertyPublicity.PP.Countries.Dto
 
         public async Task<ListResultDto<CountryListDto>> GetCountriesAsync(GetCountryInput input)
         {
-            var roles = await Repository.GetAll().WhereIf(
+            var country = await Repository.GetAll().WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();
 
-            return new ListResultDto<CountryListDto>(ObjectMapper.Map<List<CountryListDto>>(roles));
+            return new ListResultDto<CountryListDto>(ObjectMapper.Map<List<CountryListDto>>(country));
         }
     }
 }                                                                                                                                                               
