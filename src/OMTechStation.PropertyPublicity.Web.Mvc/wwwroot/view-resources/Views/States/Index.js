@@ -57,6 +57,12 @@
             },
             {
                 targets: 3,
+                data: 'countryName',
+                sortable: false
+            },
+
+            {
+                targets: 4,
                 data: null,
                 sortable: false,
                 autoWidth: false,

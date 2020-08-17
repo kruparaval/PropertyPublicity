@@ -27,8 +27,6 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
         public override async Task<StateDto> CreateAsync(CreateStateDto input)
         {
             var state = ObjectMapper.Map<State>(input);
-            //country.SetNormalizedName();
-            //CheckErrors(await CreateAsync(Country));
             await Repository.InsertAsync(state);
             return MapToEntityDto(state);
         }
@@ -57,7 +55,7 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
 
         public async Task<ListResultDto<StateListDto>> GetStatesAsync(GetStateInput input)
         {
-            var state = await Repository.GetAll().WhereIf(
+            var state = await Repository.GetAll().Include(s => s.Country).WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();

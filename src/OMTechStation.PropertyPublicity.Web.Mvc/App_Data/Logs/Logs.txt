@@ -5238,3 +5238,924 @@ INFO  2020-08-15 14:56:03,886 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics -
 INFO  2020-08-15 14:56:03,895 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=vqosGF816HYyr-4Q8rGO3w  
 INFO  2020-08-15 14:56:03,919 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
 DEBUG 2020-08-15 14:56:04,327 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"vqosGF816HYyr-4Q8rGO3w","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-15T14:56:04.0332587+05:30","Properties":{}}
+DEBUG 2020-08-15 15:01:53,190 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-15 15:01:53,425 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-15 15:01:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,476 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,482 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,483 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:53,488 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-15 15:01:53,666 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:01:53,667 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:01:53,667 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:01:53,667 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:01:54,457 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:01:55,367 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-15 15:01:55,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-15 15:01:55,462 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-15 15:01:55,471 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-15 15:01:55,479 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-15 15:01:55,597 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-15 15:01:55,668 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-15 15:01:55,771 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-15 15:01:55,771 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-15 15:01:55,780 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-15 15:01:55,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-15 15:01:55,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-15 15:01:55,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-15 15:01:55,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-15 15:01:55,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-15 15:01:55,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-15 15:01:55,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-15 15:01:55,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-15 15:01:55,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-15 15:01:55,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-15 15:02:01,814 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-15 15:02:02,842 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-15 15:02:02,972 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-15 15:02:05,396 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-15 15:02:05,448 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-15 15:02:05,458 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2486.5916ms 200 application/json
+INFO  2020-08-15 15:02:05,504 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=qDVgAOpPxRF9dymvXDETXA  
+INFO  2020-08-15 15:02:05,527 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-15 15:02:05,828 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"qDVgAOpPxRF9dymvXDETXA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-15T15:02:05.628356+05:30","Properties":{}}
+DEBUG 2020-08-15 15:04:22,752 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-15 15:04:22,896 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-15 15:04:22,920 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,923 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,924 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,926 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:22,933 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-15 15:04:23,013 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:04:23,013 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:04:23,013 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:04:23,013 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-15 15:04:23,732 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-15 15:04:24,611 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-15 15:04:24,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-15 15:04:24,720 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-15 15:04:24,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-15 15:04:24,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-15 15:04:24,872 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-15 15:04:24,924 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-15 15:04:25,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-15 15:04:25,032 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-15 15:04:25,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-15 15:04:25,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-15 15:04:25,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-15 15:04:25,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-15 15:04:25,045 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-15 15:04:25,045 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-15 15:04:31,711 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-15 15:04:32,654 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-15 15:04:32,838 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-15 15:04:35,408 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-15 15:04:35,496 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-15 15:04:35,506 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2669.5589ms 200 application/json
+INFO  2020-08-15 15:04:35,557 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=K6iTkllhu-Yo_67TnTs1Pg  
+INFO  2020-08-15 15:04:35,601 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-15 15:04:35,933 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"K6iTkllhu-Yo_67TnTs1Pg","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-15T15:04:35.7079101+05:30","Properties":{}}
+DEBUG 2020-08-17 12:46:40,601 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-17 12:46:41,764 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-17 12:46:41,788 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,794 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:41,813 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-17 12:46:42,646 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 12:46:42,647 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 12:46:42,647 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 12:46:42,647 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 12:46:44,302 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 12:46:45,740 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-17 12:46:45,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-17 12:46:45,903 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-17 12:46:45,940 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-17 12:46:45,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-17 12:46:46,188 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-17 12:46:46,270 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-17 12:46:46,355 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-17 12:46:46,355 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-17 12:46:46,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-17 12:46:46,369 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-17 12:46:46,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-17 12:46:46,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-17 12:46:46,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-17 12:46:46,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-17 12:47:01,650 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-17 12:47:07,369 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-17 12:47:07,703 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 12:47:08,869 [8    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-08-17 12:47:08,932 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-08-17 12:47:09,065 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-08-17 12:47:09,095 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1393.3644ms 302 
+INFO  2020-08-17 12:47:09,101 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:12,373 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 12:47:18,037 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-08-17 12:47:25,976 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 8320.4015ms.
+INFO  2020-08-17 12:47:25,979 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 13605.4971ms
+INFO  2020-08-17 12:47:25,980 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:26,039 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16974.4179ms 200 text/html; charset=utf-8
+INFO  2020-08-17 12:47:26,457 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332652062729466  
+INFO  2020-08-17 12:47:26,459 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332652062729466  
+INFO  2020-08-17 12:47:26,460 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-08-17 12:47:26,474 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:26,474 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:26,501 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 12:47:26,733 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 12:47:26,757 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.css?v=He3QEBKoL_nMXlVsoM7S2C2kjFQqS5L-mgA-F8LpG-U  
+INFO  2020-08-17 12:47:27,034 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 12:47:27,035 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 533.4724ms
+INFO  2020-08-17 12:47:27,035 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:27,036 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 579.9381ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 12:47:27,037 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/css/all.min.css?v=-N4_V_SbAFiW1MPBCXnfnP9QSN3-Keu-NlB-0ev_YKQ  
+INFO  2020-08-17 12:47:27,163 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2020-08-17 12:47:27,163 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/toastr/toastr.css was not modified
+INFO  2020-08-17 12:47:27,163 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/css/all.min.css was not modified
+INFO  2020-08-17 12:47:27,236 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 479.5557ms 304 text/css
+INFO  2020-08-17 12:47:27,236 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 776.5989ms 304 text/css
+INFO  2020-08-17 12:47:27,236 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/css/adminlte.min.css?v=tDEOZyJ9BuKWB-BOSc6dE4cI0uNznodJMx11eWZ7jJ4  
+INFO  2020-08-17 12:47:27,237 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 199.8898ms 304 text/css
+INFO  2020-08-17 12:47:27,237 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/css/adminlte.min.css was not modified
+INFO  2020-08-17 12:47:27,238 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2259ms 304 text/css
+INFO  2020-08-17 12:47:27,244 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css?v=D9O-28vCF-qJh2qZSFIXxXc30hTED8RmnKeZRyvVEpA  
+INFO  2020-08-17 12:47:27,245 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.min.css was not modified
+INFO  2020-08-17 12:47:27,246 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.0769ms 304 text/css
+INFO  2020-08-17 12:47:27,248 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=4lZM0wjJ2dQ7A_s0DqJZvDRfKrl2g7nHv4nvpfkfmQw  
+INFO  2020-08-17 12:47:27,248 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/icheck-bootstrap/icheck-bootstrap.css?v=nGN1DgpDTrAS3DS7E5J0cL-gblWBKAMSoU_LSuY8gu8  
+INFO  2020-08-17 12:47:27,248 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/bootstrap/dist/js/bootstrap.bundle.js?v=pVreZ67fRaATygHF6T-gQtF1NI700W9kzeAivu6au9U  
+INFO  2020-08-17 12:47:27,249 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2020-08-17 12:47:27,249 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/icheck-bootstrap/icheck-bootstrap.css was not modified
+INFO  2020-08-17 12:47:27,249 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/bootstrap/dist/js/bootstrap.bundle.js was not modified
+INFO  2020-08-17 12:47:27,249 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6752ms 304 application/javascript
+INFO  2020-08-17 12:47:27,249 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1881ms 304 text/css
+INFO  2020-08-17 12:47:27,249 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8834ms 304 text/css
+INFO  2020-08-17 12:47:27,317 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery/jquery.js?v=WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU  
+INFO  2020-08-17 12:47:27,317 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/js/adminlte.js?v=qXsDMEfG3xYx1TO9SCGpLfvQPdpKIo0nXVYYfcneIRk  
+INFO  2020-08-17 12:47:27,318 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/js/adminlte.js was not modified
+INFO  2020-08-17 12:47:27,319 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery/jquery.js was not modified
+INFO  2020-08-17 12:47:27,319 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4213ms 304 application/javascript
+INFO  2020-08-17 12:47:27,319 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/block-ui/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2020-08-17 12:47:27,320 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/block-ui/jquery.blockUI.js was not modified
+INFO  2020-08-17 12:47:27,320 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2135ms 304 application/javascript
+INFO  2020-08-17 12:47:27,321 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/spin/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2020-08-17 12:47:27,322 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/spin/spin.js was not modified
+INFO  2020-08-17 12:47:27,322 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4875ms 304 application/javascript
+INFO  2020-08-17 12:47:27,323 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.0384ms 304 application/javascript
+INFO  2020-08-17 12:47:27,327 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/spin/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2020-08-17 12:47:27,328 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/spin/jquery.spin.js was not modified
+INFO  2020-08-17 12:47:27,328 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3017ms 304 application/javascript
+INFO  2020-08-17 12:47:27,329 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/sweetalert/sweetalert.min.js?v=KsRuvuRtUVvobe66OFtOQfjP8WA2SzYsmm4VPfMnxms  
+INFO  2020-08-17 12:47:27,330 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/sweetalert/sweetalert.min.js was not modified
+INFO  2020-08-17 12:47:27,330 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1939ms 304 application/javascript
+INFO  2020-08-17 12:47:27,330 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/toastr/toastr.min.js?v=yNbKY1y6h2rbVcQtf0b8lq4a-xpktyFc3pSYoGAY1qQ  
+INFO  2020-08-17 12:47:27,331 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/abp.js?v=3lLIPNQoGBxv9DWxtKwnvHr7Wlov-D0jo-NtjAdTenA  
+INFO  2020-08-17 12:47:27,331 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=MEOC0fqxBbFCeeJ6VHFuw8-2C710gCRqjbvYcHoBdHU  
+INFO  2020-08-17 12:47:27,331 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/toastr/toastr.min.js was not modified
+INFO  2020-08-17 12:47:27,332 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1512ms 304 application/javascript
+INFO  2020-08-17 12:47:27,332 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2020-08-17 12:47:27,332 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7419ms 304 application/javascript
+INFO  2020-08-17 12:47:27,332 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2020-08-17 12:47:27,332 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1442ms 304 application/javascript
+INFO  2020-08-17 12:47:27,368 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2020-08-17 12:47:27,368 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.js?v=xLhce0FUawd11QSwrvXSwST0oHhOolNoH9cUXAcsIAg  
+INFO  2020-08-17 12:47:27,368 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=i3fsIGh0z3DXDbSa7f6TwsWonuZ8-OwELSrtH1jHbDA  
+INFO  2020-08-17 12:47:27,369 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2020-08-17 12:47:27,369 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.js was not modified
+INFO  2020-08-17 12:47:27,369 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2020-08-17 12:47:27,369 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2135ms 304 application/javascript
+INFO  2020-08-17 12:47:27,369 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0674ms 304 application/javascript
+INFO  2020-08-17 12:47:27,369 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0011ms 304 application/javascript
+INFO  2020-08-17 12:47:27,369 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=Ta7OYgm62iNXMvVrH3f4y3WqUbGsHGBNvt0Zu0eIKtk  
+INFO  2020-08-17 12:47:27,369 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2020-08-17 12:47:27,370 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2020-08-17 12:47:27,370 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2020-08-17 12:47:27,370 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8206ms 304 application/javascript
+INFO  2020-08-17 12:47:27,370 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8983ms 304 application/javascript
+INFO  2020-08-17 12:47:27,502 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=-lEHwKbaliEqhcFlf0r3Ijy5GgGSbZx5nOVM8gGO3iw  
+INFO  2020-08-17 12:47:27,502 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=QcQaP2tYhyMf9nF9oQ73Fek6Q4zGCxX2-VNI5iPnEaU  
+INFO  2020-08-17 12:47:27,502 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/jquery-validate/jquery.validate.unobtrusive.js?v=XNNC8ESw29iopRLukVRazlP44TxnjGmEQanHJ5kHmtk  
+INFO  2020-08-17 12:47:27,503 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2020-08-17 12:47:27,503 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2020-08-17 12:47:27,503 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/jquery-validate/jquery.validate.unobtrusive.js was not modified
+INFO  2020-08-17 12:47:27,503 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9854ms 304 application/javascript
+INFO  2020-08-17 12:47:27,503 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1436ms 304 application/javascript
+INFO  2020-08-17 12:47:27,503 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3243ms 304 application/javascript
+INFO  2020-08-17 12:47:27,503 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/moment/moment-with-locales.js?v=dgFbqbQVzjkZPQxWd8PBtzGiRBhChc4I2wO_q_s-Xeo  
+INFO  2020-08-17 12:47:27,504 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/moment/moment-with-locales.js was not modified
+INFO  2020-08-17 12:47:27,505 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2326ms 304 application/javascript
+INFO  2020-08-17 12:47:27,621 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 12:47:27,622 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 888.0986ms
+INFO  2020-08-17 12:47:27,622 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:27,623 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1165.1761ms 200 application/x-javascript
+INFO  2020-08-17 12:47:27,932 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2020-08-17 12:47:27,936 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs-ext/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2020-08-17 12:47:27,937 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6653ms 304 image/png
+INFO  2020-08-17 12:47:31,586 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/font-awesome/webfonts/fa-solid-900.woff2  
+INFO  2020-08-17 12:47:31,607 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/font-awesome/webfonts/fa-solid-900.woff2 was not modified
+INFO  2020-08-17 12:47:31,611 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.1261ms 304 font/woff2
+INFO  2020-08-17 12:47:35,862 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-08-17 12:47:35,873 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:35,919 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 12:47:44,109 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-08-17 12:47:45,362 [6    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 12:47:45,730 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 9810.3188ms
+INFO  2020-08-17 12:47:45,730 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:45,732 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9870.167ms 200 application/json; charset=utf-8
+INFO  2020-08-17 12:47:45,776 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 12:47:46,015 [6    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-17 12:47:46,016 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:46,026 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 12:47:47,005 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 12:47:53,813 [25   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 7022.7819ms.
+INFO  2020-08-17 12:47:53,819 [25   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 7793.1908ms
+INFO  2020-08-17 12:47:53,819 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 12:47:53,821 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8046.741ms 200 text/html; charset=utf-8
+INFO  2020-08-17 12:47:54,273 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/dataTables.bootstrap4.min.css?v=F-DaKAClQut87heMIC6oThARMuWne8-WzxIDT7jXuPA  
+INFO  2020-08-17 12:47:54,275 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/dataTables.bootstrap4.min.css was not modified
+INFO  2020-08-17 12:47:54,276 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3917ms 304 text/css
+INFO  2020-08-17 12:47:54,334 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/responsive.bootstrap4.min.css?v=QrpUliTHPwNNlphA-wNV-zRWVltgDT6Eg0cXVAB04hI  
+INFO  2020-08-17 12:47:54,334 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/css/buttons.bootstrap4.min.css?v=1O-iXoRdSUgNTj7NzmW-C3dpRaxiGn1afSX-qfRCV4Q  
+INFO  2020-08-17 12:47:54,336 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/responsive.bootstrap4.min.css was not modified
+INFO  2020-08-17 12:47:54,336 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/css/buttons.bootstrap4.min.css was not modified
+INFO  2020-08-17 12:47:54,337 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0088ms 304 text/css
+INFO  2020-08-17 12:47:54,337 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0087ms 304 text/css
+INFO  2020-08-17 12:47:54,544 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/jquery.dataTables.min.js?v=LXQzPhL1IRyKkA7HpCOBi8I-OC8HqzHUYkjK8S-LKTs  
+INFO  2020-08-17 12:47:54,544 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=pHobCa-IAfjMNqE8x1a2vYglVfPFWGtvFJmb0671Np0  
+INFO  2020-08-17 12:47:54,546 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/jquery.dataTables.min.js was not modified
+INFO  2020-08-17 12:47:54,546 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2020-08-17 12:47:54,546 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.7316ms 304 application/javascript
+INFO  2020-08-17 12:47:54,546 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.8495ms 304 text/css
+INFO  2020-08-17 12:47:54,784 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.bootstrap4.min.js?v=hJ44ymhBmRPJKIaKRf3DSX5uiFEZ9xB_qx8cNbJvIMU  
+INFO  2020-08-17 12:47:54,791 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.bootstrap4.min.js was not modified
+INFO  2020-08-17 12:47:54,792 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.4754ms 304 application/javascript
+INFO  2020-08-17 12:47:54,795 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.responsive.min.js?v=7Tbik5KSODuGiOLIOFfhP47p5UK6h1wzw8CFSI_TKhc  
+INFO  2020-08-17 12:47:54,796 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.responsive.min.js was not modified
+INFO  2020-08-17 12:47:54,797 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2231ms 304 application/javascript
+INFO  2020-08-17 12:47:54,797 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/responsive.bootstrap4.min.js?v=aXVO47Rb7s58FhMTCwbM39en_1XcmzGkClRzBe5txKs  
+INFO  2020-08-17 12:47:54,799 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/responsive.bootstrap4.min.js was not modified
+INFO  2020-08-17 12:47:54,800 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.712ms 304 application/javascript
+INFO  2020-08-17 12:47:54,801 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/dataTables.buttons.js?v=5QXxQoJP_O_KTBOFw8kshfIczGGlmZRcR_WjhFKbiZY  
+INFO  2020-08-17 12:47:54,802 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/dataTables.buttons.js was not modified
+INFO  2020-08-17 12:47:54,803 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9755ms 304 application/javascript
+INFO  2020-08-17 12:47:54,811 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/datatables/js/buttons.bootstrap4.js?v=7tPJL63hI4QnZbV489_5KEpe7k6W5RzPTZkP8m6kzEE  
+INFO  2020-08-17 12:47:54,813 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/datatables/js/buttons.bootstrap4.js was not modified
+INFO  2020-08-17 12:47:54,813 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1443ms 304 application/javascript
+INFO  2020-08-17 12:47:54,886 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=7OzpM5utNWYP8ne_218zbUCD3Xj_R1GqM6AzwpgQktg  
+INFO  2020-08-17 12:47:54,887 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2020-08-17 12:47:54,888 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.3519ms 304 application/javascript
+INFO  2020-08-17 12:47:54,962 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/signalr/dist/browser/signalr.js?v=s5ortbhB2C3h17nHMtXwbCSN9YncRIZH6XrFTSO9vmk  
+INFO  2020-08-17 12:47:54,968 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/signalr/dist/browser/signalr.js was not modified
+INFO  2020-08-17 12:47:54,969 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.9133ms 304 application/javascript
+INFO  2020-08-17 12:47:55,070 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/push.js/push.js?v=p73-snCYhrDo9U6USD9P19LnY1EwAe4-VzQxj_kNyBE  
+INFO  2020-08-17 12:47:55,071 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/push.js/push.js was not modified
+INFO  2020-08-17 12:47:55,072 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2146ms 304 application/javascript
+INFO  2020-08-17 12:47:55,133 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332652062729466  
+INFO  2020-08-17 12:47:55,133 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/abp.dataTable.js?v=OgPKCQMiEnZcqbGVTkmr3KXuurOKyQCsW_f51_o0qzg  
+INFO  2020-08-17 12:47:55,135 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/abp.dataTable.js was not modified
+INFO  2020-08-17 12:47:55,136 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.0603ms 304 application/javascript
+INFO  2020-08-17 12:47:55,154 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:55,158 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 12:47:55,167 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332652062729466  
+INFO  2020-08-17 12:47:55,168 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 12:47:55,169 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 10.8596ms
+INFO  2020-08-17 12:47:55,169 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:55,170 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.4344ms 200 application/x-javascript
+INFO  2020-08-17 12:47:55,172 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/chartjs/dist/Chart.js?v=nZaxPHA2uAaquixjSDX19TmIlbRNCOrf5HO1oHl5p70  
+INFO  2020-08-17 12:47:55,174 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/chartjs/dist/Chart.js was not modified
+INFO  2020-08-17 12:47:55,175 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5169ms 304 application/javascript
+INFO  2020-08-17 12:47:55,185 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:55,188 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 12:47:55,260 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=j15_3UQM_OHO7c9lRyJFSPI9uIy3cZwnglSG6RzPmPA  
+INFO  2020-08-17 12:47:55,261 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2020-08-17 12:47:55,261 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5245ms 304 application/javascript
+INFO  2020-08-17 12:47:55,263 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/libs/admin-lte/dist/img/avatar5.png  
+INFO  2020-08-17 12:47:55,265 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /libs/admin-lte/dist/img/avatar5.png was not modified
+INFO  2020-08-17 12:47:55,265 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.864ms 304 image/png
+INFO  2020-08-17 12:47:55,391 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 12:47:55,392 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 203.8369ms
+INFO  2020-08-17 12:47:55,392 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 12:47:55,393 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 225.5394ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 12:47:55,460 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/logo.png  
+INFO  2020-08-17 12:47:55,461 [29   ] NetCore.StaticFiles.StaticFileMiddleware - The file /img/logo.png was not modified
+INFO  2020-08-17 12:47:55,461 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9683ms 304 image/png
+INFO  2020-08-17 12:47:57,277 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 12:47:57,313 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 12:47:57,880 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 12:47:57,881 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 603.5086ms 200 application/json
+INFO  2020-08-17 12:48:04,633 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Z4Z9SyIgJ3RKQ-zKf21NJg  
+INFO  2020-08-17 12:48:04,654 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 12:48:05,156 [29   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Z4Z9SyIgJ3RKQ-zKf21NJg","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T12:48:05.1449348+05:30","Properties":{}}
+DEBUG 2020-08-17 12:48:05,229 [29   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Z4Z9SyIgJ3RKQ-zKf21NJg
+DEBUG 2020-08-17 12:48:38,396 [26   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Z4Z9SyIgJ3RKQ-zKf21NJg
+INFO  2020-08-17 12:48:38,429 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 12:48:38,430 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33797.4507ms 101 
+DEBUG 2020-08-17 13:09:11,866 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-17 13:09:12,653 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-17 13:09:12,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,694 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,695 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,710 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,722 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:12,727 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-17 13:09:13,756 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 13:09:13,756 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 13:09:13,757 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 13:09:13,757 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 13:09:16,670 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 13:09:19,438 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-17 13:09:19,727 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-17 13:09:19,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-17 13:09:19,829 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-17 13:09:19,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-17 13:09:20,045 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-17 13:09:20,220 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-17 13:09:20,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-17 13:09:20,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-17 13:09:20,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-17 13:09:20,383 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-17 13:09:20,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-17 13:09:20,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-17 13:09:20,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-17 13:09:20,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-17 13:09:20,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-17 13:09:20,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-17 13:09:20,386 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-17 13:09:20,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-17 13:09:20,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-17 13:09:31,154 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-17 13:09:35,029 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-17 13:09:35,781 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 13:09:36,663 [12   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-08-17 13:09:36,688 [12   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-08-17 13:09:36,823 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1028.7846ms 302 
+INFO  2020-08-17 13:09:36,867 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-08-17 13:09:36,921 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:09:39,680 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 13:09:44,016 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-08-17 13:09:48,308 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 4460.4052ms.
+INFO  2020-08-17 13:09:48,311 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 8630.2053ms
+INFO  2020-08-17 13:09:48,314 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:09:48,335 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11468.625ms 200 text/html; charset=utf-8
+INFO  2020-08-17 13:09:49,344 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332665602253819  
+INFO  2020-08-17 13:09:49,351 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332665602253819  
+INFO  2020-08-17 13:09:49,363 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:09:49,363 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:09:49,390 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 13:09:49,461 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 13:09:50,019 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:09:50,021 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 630.9255ms
+INFO  2020-08-17 13:09:50,021 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:09:50,022 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 671.3978ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:09:50,408 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 13:09:50,409 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 947.8133ms
+INFO  2020-08-17 13:09:50,409 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:09:50,410 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1066.8284ms 200 application/x-javascript
+INFO  2020-08-17 13:10:13,112 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-08-17 13:10:13,120 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:13,153 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 13:10:14,773 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-08-17 13:10:14,826 [4    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 13:10:14,864 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 1710.6474ms
+INFO  2020-08-17 13:10:14,865 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:14,866 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1754.386ms 200 application/json; charset=utf-8
+INFO  2020-08-17 13:10:14,894 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 13:10:15,002 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-17 13:10:15,003 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:15,011 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 13:10:15,133 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 13:10:16,859 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1777.7576ms.
+INFO  2020-08-17 13:10:16,865 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 1853.2341ms
+INFO  2020-08-17 13:10:16,865 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:16,867 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1972.4188ms 200 text/html; charset=utf-8
+INFO  2020-08-17 13:10:17,059 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332665602253819  
+INFO  2020-08-17 13:10:17,074 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332665602253819  
+INFO  2020-08-17 13:10:17,080 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:17,084 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 13:10:17,088 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:17,089 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 13:10:17,089 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.4153ms
+INFO  2020-08-17 13:10:17,089 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:17,090 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 30.4887ms 200 application/x-javascript
+INFO  2020-08-17 13:10:17,091 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 13:10:17,211 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:10:17,211 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 120.3277ms
+INFO  2020-08-17 13:10:17,212 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:17,213 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 138.435ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:10:17,707 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 13:10:17,728 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 13:10:17,933 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 13:10:17,934 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 227.4553ms 200 application/json
+INFO  2020-08-17 13:10:19,258 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=5S5lP4XcqFF7kP8Xrt22HA  
+INFO  2020-08-17 13:10:19,280 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 13:10:20,286 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"5S5lP4XcqFF7kP8Xrt22HA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T13:10:20.2729627+05:30","Properties":{}}
+DEBUG 2020-08-17 13:10:20,314 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 5S5lP4XcqFF7kP8Xrt22HA
+INFO  2020-08-17 13:10:27,569 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/States  
+INFO  2020-08-17 13:10:27,595 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:27,605 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "States", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 13:10:28,115 [5    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 13:10:28,464 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 388.3938ms.
+INFO  2020-08-17 13:10:28,465 [23   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 858.8872ms
+INFO  2020-08-17 13:10:28,465 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 13:10:28,467 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 898.2902ms 200 text/html; charset=utf-8
+DEBUG 2020-08-17 13:10:28,507 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 5S5lP4XcqFF7kP8Xrt22HA
+INFO  2020-08-17 13:10:28,526 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 13:10:28,526 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9268.9209ms 101 
+INFO  2020-08-17 13:10:28,575 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/states/Index.js?v=nljhx9X14k4P9A95_g_O4cBKkEqLc9x2Kxh3QYZTwMA  
+INFO  2020-08-17 13:10:28,580 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332665602253819  
+INFO  2020-08-17 13:10:28,586 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332665602253819  
+INFO  2020-08-17 13:10:28,600 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:28,600 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:28,603 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 13:10:28,603 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 13:10:28,607 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 13:10:28,607 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.4261ms
+INFO  2020-08-17 13:10:28,608 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:28,608 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.6295ms 200 application/x-javascript
+INFO  2020-08-17 13:10:28,636 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:10:28,636 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 33.4277ms
+INFO  2020-08-17 13:10:28,637 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 13:10:28,637 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 51.3484ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 13:10:28,651 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/states/Index.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\view-resources\Views\states\Index.js'
+INFO  2020-08-17 13:10:28,651 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 76.5696ms 200 application/javascript
+INFO  2020-08-17 13:10:28,837 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 13:10:28,848 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 13:10:28,850 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 13:10:28,850 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.2083ms 200 application/json
+INFO  2020-08-17 13:10:29,283 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/State/GetAll?skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-17 13:10:29,314 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 13:10:29,325 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=7Sz3gzYufDKgq4nyzb2ZeQ  
+INFO  2020-08-17 13:10:29,356 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-17 13:10:29,367 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "State"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OMTechStation.PropertyPublicity.PP.States.Dto.StateDto]] GetAllAsync(OMTechStation.PropertyPublicity.PP.States.Dto.PageStateResultRequestDto) on controller OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService (OMTechStation.PropertyPublicity.Application).
+DEBUG 2020-08-17 13:10:29,377 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"7Sz3gzYufDKgq4nyzb2ZeQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T13:10:29.3762763+05:30","Properties":{}}
+DEBUG 2020-08-17 13:10:29,378 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 7Sz3gzYufDKgq4nyzb2ZeQ
+INFO  2020-08-17 13:10:29,582 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 13:10:29,610 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application) in 242.3951ms
+INFO  2020-08-17 13:10:29,610 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 13:10:29,611 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 328.4929ms 200 application/json; charset=utf-8
+DEBUG 2020-08-17 13:11:21,529 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 7Sz3gzYufDKgq4nyzb2ZeQ
+INFO  2020-08-17 13:11:21,530 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 13:11:21,531 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52206.4054ms 101 
+DEBUG 2020-08-17 14:14:47,227 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-17 14:14:54,073 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-17 14:14:54,409 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,515 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:14:54,524 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-17 14:14:59,285 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 14:14:59,302 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 14:14:59,302 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 14:14:59,303 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 14:15:09,174 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 14:15:19,288 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-17 14:15:19,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-17 14:15:20,090 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-17 14:15:20,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-17 14:15:20,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-17 14:15:21,565 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-17 14:15:22,641 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-17 14:15:23,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-17 14:15:23,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-17 14:15:23,681 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-17 14:15:23,682 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-17 14:15:23,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-17 14:15:23,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-17 14:15:23,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-17 14:15:23,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-17 14:15:23,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-17 14:15:23,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-17 14:15:23,685 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-17 14:15:23,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-17 14:15:23,686 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-17 14:16:34,837 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-17 14:16:58,682 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-17 14:17:01,882 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 14:17:10,527 [18   ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-08-17 14:17:10,646 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-08-17 14:17:11,340 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9432.2926ms 302 
+INFO  2020-08-17 14:17:11,544 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-08-17 14:17:11,622 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:17:56,365 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 14:18:37,333 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-08-17 14:19:12,662 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 36883.5236ms.
+INFO  2020-08-17 14:19:12,713 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 76346.4134ms
+INFO  2020-08-17 14:19:12,715 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:19:13,042 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 121497.7955ms 200 text/html; charset=utf-8
+INFO  2020-08-17 14:19:15,332 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332705226456490  
+INFO  2020-08-17 14:19:15,603 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:19:16,070 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332705226456490  
+INFO  2020-08-17 14:19:16,095 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:19:16,628 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 14:19:16,632 [26   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 14:19:20,828 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 14:19:20,878 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4201.1892ms
+INFO  2020-08-17 14:19:20,879 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:19:20,880 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5547.5938ms 200 application/x-javascript
+INFO  2020-08-17 14:19:32,078 [26   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:19:32,081 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 15447.6861ms
+INFO  2020-08-17 14:19:32,081 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:19:32,082 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16011.7571ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:19:44,318 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-08-17 14:19:44,362 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:19:44,688 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 14:20:21,771 [44   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-08-17 14:20:23,836 [40   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 14:20:23,943 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 39254.2555ms
+INFO  2020-08-17 14:20:23,944 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:20:23,945 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39627.9709ms 200 application/json; charset=utf-8
+INFO  2020-08-17 14:20:25,549 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 14:20:26,277 [40   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-17 14:20:26,277 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:20:26,339 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 14:20:28,226 [39   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 14:20:47,350 [39   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 19377.0152ms.
+INFO  2020-08-17 14:20:47,357 [39   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 21017.4726ms
+INFO  2020-08-17 14:20:47,357 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:20:47,359 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21809.8982ms 200 text/html; charset=utf-8
+INFO  2020-08-17 14:20:51,546 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332705226456490  
+INFO  2020-08-17 14:20:51,646 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:20:51,650 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 14:20:51,664 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332705226456490  
+INFO  2020-08-17 14:20:51,997 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:20:51,999 [27   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 14:20:52,015 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 14:20:52,016 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 363.1031ms
+INFO  2020-08-17 14:20:52,016 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:20:52,017 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 471.1624ms 200 application/x-javascript
+INFO  2020-08-17 14:20:54,211 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 14:20:54,237 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:20:54,498 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:20:54,535 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 323.1724ms 200 application/json
+INFO  2020-08-17 14:20:56,384 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=SRC8etLltZ3JEkEJ3HkT7w  
+INFO  2020-08-17 14:20:56,486 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 14:20:58,403 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"SRC8etLltZ3JEkEJ3HkT7w","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T14:20:58.3192914+05:30","Properties":{}}
+DEBUG 2020-08-17 14:20:58,757 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: SRC8etLltZ3JEkEJ3HkT7w
+INFO  2020-08-17 14:20:59,101 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:20:59,106 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 7106.6016ms
+INFO  2020-08-17 14:20:59,106 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:20:59,108 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7443.2848ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:21:06,225 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/States  
+INFO  2020-08-17 14:21:06,336 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:21:06,345 [43   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "States", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 14:21:14,219 [39   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 14:21:19,797 [24   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 5755.3786ms.
+INFO  2020-08-17 14:21:19,802 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 13456.3309ms
+INFO  2020-08-17 14:21:19,802 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 14:21:19,803 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13578.0227ms 200 text/html; charset=utf-8
+DEBUG 2020-08-17 14:21:20,723 [39   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: SRC8etLltZ3JEkEJ3HkT7w
+INFO  2020-08-17 14:21:20,849 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 14:21:20,850 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24465.7373ms 101 
+INFO  2020-08-17 14:21:22,884 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332705226456490  
+INFO  2020-08-17 14:21:22,933 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:21:22,938 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 14:21:22,971 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 14:21:22,972 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 33.8452ms
+INFO  2020-08-17 14:21:22,972 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 14:21:22,972 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.0653ms 200 application/x-javascript
+INFO  2020-08-17 14:21:23,900 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332705226456490  
+INFO  2020-08-17 14:21:23,934 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:21:23,937 [24   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 14:21:24,350 [24   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:21:24,351 [24   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 413.8407ms
+INFO  2020-08-17 14:21:24,351 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 14:21:24,351 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 451.175ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 14:21:24,773 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 14:21:24,856 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:21:24,860 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:21:24,881 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 108.5278ms 200 application/json
+INFO  2020-08-17 14:21:25,748 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=-Y6Gt-FDUJ1ls04NO-Akjw  
+INFO  2020-08-17 14:21:26,032 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 14:21:29,193 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"-Y6Gt-FDUJ1ls04NO-Akjw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T14:21:29.1469309+05:30","Properties":{}}
+DEBUG 2020-08-17 14:21:29,196 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: -Y6Gt-FDUJ1ls04NO-Akjw
+INFO  2020-08-17 14:21:29,381 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/State/GetAll?skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-17 14:21:29,529 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 14:21:29,714 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "State"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OMTechStation.PropertyPublicity.PP.States.Dto.StateDto]] GetAllAsync(OMTechStation.PropertyPublicity.PP.States.Dto.PageStateResultRequestDto) on controller OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService (OMTechStation.PropertyPublicity.Application).
+INFO  2020-08-17 14:21:37,459 [40   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 14:21:37,513 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application) in 7798.157ms
+INFO  2020-08-17 14:21:37,513 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 14:21:37,514 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8133.0563ms 200 application/json; charset=utf-8
+DEBUG 2020-08-17 14:26:40,544 [56   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: -Y6Gt-FDUJ1ls04NO-Akjw
+INFO  2020-08-17 14:26:40,547 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 14:26:40,549 [56   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 314800.5555ms 101 
+INFO  2020-08-17 14:29:14,834 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 14:29:15,876 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:29:15,915 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 14:29:15,916 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1081.9202ms 200 application/json
+INFO  2020-08-17 14:29:17,621 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=TcRM21n7IWRHtc_JqELYcQ  
+INFO  2020-08-17 14:29:17,632 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 14:29:18,932 [46   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"TcRM21n7IWRHtc_JqELYcQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T14:29:18.9321114+05:30","Properties":{}}
+DEBUG 2020-08-17 16:21:02,046 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-08-17 16:21:03,087 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-08-17 16:21:03,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Web.Startup.PropertyPublicityWebMvcModule, OMTechStation.PropertyPublicity.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,116 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityWebCoreModule, OMTechStation.PropertyPublicity.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityApplicationModule, OMTechStation.PropertyPublicity.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,147 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,148 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:03,156 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-08-17 16:21:03,832 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 16:21:03,847 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 16:21:03,847 [1    ] o.Configuration.LanguageManagementConfig - Converted PropertyPublicity (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 16:21:03,847 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-08-17 16:21:05,394 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-08-17 16:21:06,790 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-08-17 16:21:06,926 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-08-17 16:21:06,946 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-08-17 16:21:06,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+DEBUG 2020-08-17 16:21:06,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-08-17 16:21:07,075 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-08-17 16:21:07,189 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[OMTechStation.PropertyPublicity.MultiTenancy.Tenant, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[OMTechStation.PropertyPublicity.Authorization.Users.User, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-08-17 16:21:07,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 12 classes define auto mapping attributes
+DEBUG 2020-08-17 16:21:07,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-08-17 16:21:07,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.CreateUserDto
+DEBUG 2020-08-17 16:21:07,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Users.Dto.UserDto
+DEBUG 2020-08-17 16:21:07,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-08-17 16:21:07,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-08-17 16:21:07,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Roles.Dto.PermissionDto
+DEBUG 2020-08-17 16:21:07,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-08-17 16:21:07,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.MultiTenancy.Dto.TenantDto
+DEBUG 2020-08-17 16:21:07,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2020-08-17 16:21:07,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.States.EditStateModalViewModel
+DEBUG 2020-08-17 16:21:07,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.PP.Models.Countries.EditCountryModalViewModel
+DEBUG 2020-08-17 16:21:07,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - OMTechStation.PropertyPublicity.Web.Models.Roles.EditRoleModalViewModel
+INFO  2020-08-17 16:21:19,736 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-08-17 16:21:24,231 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\RAVAL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-08-17 16:21:25,008 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 16:21:25,953 [7    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2020-08-17 16:21:25,990 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2020-08-17 16:21:26,077 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2020-08-17 16:21:26,109 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:21:26,137 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1095.1689ms 302 
+INFO  2020-08-17 16:21:29,252 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:21:33,563 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2020-08-17 16:21:39,977 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 6599.9184ms.
+INFO  2020-08-17 16:21:39,984 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 10731.1134ms
+INFO  2020-08-17 16:21:39,986 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:21:40,063 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13985.8929ms 200 text/html; charset=utf-8
+INFO  2020-08-17 16:21:40,303 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332780671937161  
+INFO  2020-08-17 16:21:40,306 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332780671937161  
+INFO  2020-08-17 16:21:40,316 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:21:40,316 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:21:40,347 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 16:21:40,503 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 16:21:40,934 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:21:40,940 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 592.2672ms
+INFO  2020-08-17 16:21:40,940 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:21:40,944 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 637.2315ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:21:41,657 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 16:21:41,660 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1156.2537ms
+INFO  2020-08-17 16:21:41,661 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:21:41,662 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1359.4009ms 200 application/x-javascript
+INFO  2020-08-17 16:21:48,297 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2020-08-17 16:21:48,304 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:21:48,341 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(OMTechStation.PropertyPublicity.Web.Models.Account.LoginViewModel, System.String, System.String) on controller OMTechStation.PropertyPublicity.Web.Controllers.AccountController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:21:52,644 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2020-08-17 16:21:53,045 [12   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 16:21:53,092 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc) in 4750.9178ms
+INFO  2020-08-17 16:21:53,092 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.AccountController.Login (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:21:53,094 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4797.4051ms 200 application/json; charset=utf-8
+INFO  2020-08-17 16:21:53,184 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2020-08-17 16:21:53,439 [12   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2020-08-17 16:21:53,440 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:21:53,449 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller OMTechStation.PropertyPublicity.Web.Controllers.HomeController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:21:53,909 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 16:22:00,605 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 6829.0099ms.
+INFO  2020-08-17 16:22:00,613 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 7163.7191ms
+INFO  2020-08-17 16:22:00,614 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.Controllers.HomeController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:22:00,615 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7431.8788ms 200 text/html; charset=utf-8
+INFO  2020-08-17 16:22:01,158 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332780671937161  
+INFO  2020-08-17 16:22:01,178 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332780671937161  
+INFO  2020-08-17 16:22:01,181 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:01,190 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 16:22:01,194 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:01,197 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 16:22:01,198 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 16:22:01,199 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 8.1807ms
+INFO  2020-08-17 16:22:01,199 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:01,200 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.7472ms 200 application/x-javascript
+INFO  2020-08-17 16:22:01,587 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:22:01,588 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 391.258ms
+INFO  2020-08-17 16:22:01,589 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:01,590 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 412.0093ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:22:01,827 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 16:22:01,854 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:22:02,266 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:22:02,267 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 441.0272ms 200 application/json
+INFO  2020-08-17 16:22:02,433 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=HzMVz4ai_MRax8ucwlZwIw  
+INFO  2020-08-17 16:22:02,449 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-08-17 16:22:04,048 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"HzMVz4ai_MRax8ucwlZwIw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T16:22:04.0355288+05:30","Properties":{}}
+DEBUG 2020-08-17 16:22:04,083 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: HzMVz4ai_MRax8ucwlZwIw
+INFO  2020-08-17 16:22:29,880 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/States  
+INFO  2020-08-17 16:22:29,900 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:22:29,917 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "States", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:22:30,832 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-08-17 16:22:30,894 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'CountryId' in localization source 'PropertyPublicity'!
+INFO  2020-08-17 16:22:31,433 [18   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 616.553ms.
+INFO  2020-08-17 16:22:31,433 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 1515.6798ms
+INFO  2020-08-17 16:22:31,433 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:22:31,435 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1554.7917ms 200 text/html; charset=utf-8
+DEBUG 2020-08-17 16:22:31,518 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: HzMVz4ai_MRax8ucwlZwIw
+INFO  2020-08-17 16:22:31,529 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/states/Index.js?v=DlMYKv6WmahUXMdR3LIjfqGdJPvKN9YAq2f5_Cwws2E  
+INFO  2020-08-17 16:22:31,529 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332780671937161  
+INFO  2020-08-17 16:22:31,531 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332780671937161  
+INFO  2020-08-17 16:22:31,540 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 16:22:31,541 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29108.0118ms 101 
+INFO  2020-08-17 16:22:31,547 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:31,547 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:31,550 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 16:22:31,550 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 16:22:31,556 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 16:22:31,557 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 6.6881ms
+INFO  2020-08-17 16:22:31,557 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:31,557 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.7234ms 200 application/x-javascript
+INFO  2020-08-17 16:22:31,591 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:22:31,592 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 41.555ms
+INFO  2020-08-17 16:22:31,592 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:22:31,592 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 63.0271ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:22:31,678 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/states/Index.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\view-resources\Views\states\Index.js'
+INFO  2020-08-17 16:22:31,678 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 149.3607ms 200 application/javascript
+INFO  2020-08-17 16:22:31,784 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 16:22:31,795 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:22:31,796 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:22:31,796 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.827ms 200 application/json
+INFO  2020-08-17 16:22:31,817 [25   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=yvSGneJ-CLMJndlmQa3qiA  
+INFO  2020-08-17 16:22:31,829 [25   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-17 16:22:32,138 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/State/GetAll?skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-17 16:22:32,154 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:22:32,182 [22   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "State"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OMTechStation.PropertyPublicity.PP.States.Dto.StateDto]] GetAllAsync(OMTechStation.PropertyPublicity.PP.States.Dto.PageStateResultRequestDto) on controller OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService (OMTechStation.PropertyPublicity.Application).
+DEBUG 2020-08-17 16:22:32,206 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"yvSGneJ-CLMJndlmQa3qiA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T16:22:32.2029808+05:30","Properties":{}}
+DEBUG 2020-08-17 16:22:32,209 [25   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: yvSGneJ-CLMJndlmQa3qiA
+INFO  2020-08-17 16:22:32,789 [22   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 16:22:32,824 [22   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application) in 642.4645ms
+INFO  2020-08-17 16:22:32,825 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:22:32,826 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 687.7323ms 200 application/json; charset=utf-8
+INFO  2020-08-17 16:27:56,998 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/States  
+INFO  2020-08-17 16:27:57,013 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:27:57,017 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "States", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:29:33,582 [42   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2020-08-17 16:29:33,618 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'Country' in localization source 'PropertyPublicity'!
+INFO  2020-08-17 16:29:34,177 [46   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 96881.3796ms.
+INFO  2020-08-17 16:29:34,178 [46   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 97160.0899ms
+INFO  2020-08-17 16:29:34,178 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:29:34,180 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 97181.3119ms 200 text/html; charset=utf-8
+DEBUG 2020-08-17 16:29:34,200 [46   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: yvSGneJ-CLMJndlmQa3qiA
+INFO  2020-08-17 16:29:34,202 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 16:29:34,203 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 422385.8514ms 101 
+INFO  2020-08-17 16:29:34,321 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332780671937161  
+INFO  2020-08-17 16:29:34,324 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332780671937161  
+INFO  2020-08-17 16:29:34,331 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/states/Index.js?v=4wddsuAyFeqZ0a3UcPQptovtEwdI107YMRiSm2FJ4Kg  
+INFO  2020-08-17 16:29:34,333 [44   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/states/Index.js'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\view-resources\Views\states\Index.js'
+INFO  2020-08-17 16:29:34,333 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.4764ms 200 application/javascript
+INFO  2020-08-17 16:29:34,338 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:29:34,338 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:29:34,355 [46   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 16:29:34,355 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 16:29:34,360 [46   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 16:29:34,360 [46   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.414ms
+INFO  2020-08-17 16:29:34,361 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:29:34,361 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 39.9153ms 200 application/x-javascript
+INFO  2020-08-17 16:29:34,381 [12   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:29:34,381 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 26.4065ms
+INFO  2020-08-17 16:29:34,382 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:29:34,382 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 58.3648ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:29:34,533 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 16:29:34,546 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:29:34,547 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:29:34,547 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 13.9168ms 200 application/json
+INFO  2020-08-17 16:29:34,767 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=9krIUrM28qJoXd4eYg6bNw  
+INFO  2020-08-17 16:29:34,781 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-17 16:29:35,347 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/State/GetAll?skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-17 16:29:35,370 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:29:35,372 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "State"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OMTechStation.PropertyPublicity.PP.States.Dto.StateDto]] GetAllAsync(OMTechStation.PropertyPublicity.PP.States.Dto.PageStateResultRequestDto) on controller OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService (OMTechStation.PropertyPublicity.Application).
+DEBUG 2020-08-17 16:29:35,392 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"9krIUrM28qJoXd4eYg6bNw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T16:29:35.3918854+05:30","Properties":{}}
+DEBUG 2020-08-17 16:29:35,392 [12   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 9krIUrM28qJoXd4eYg6bNw
+INFO  2020-08-17 16:29:35,534 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+INFO  2020-08-17 16:29:35,609 [46   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-08-17 16:29:35,609 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 75.2762ms 200 image/x-icon
+INFO  2020-08-17 16:29:35,882 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 16:29:35,883 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application) in 510.059ms
+INFO  2020-08-17 16:29:35,883 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:29:35,883 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 536.0633ms 200 application/json; charset=utf-8
+INFO  2020-08-17 16:40:07,585 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/States  
+INFO  2020-08-17 16:40:07,611 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:40:07,616 [42   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "States", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController (OMTechStation.PropertyPublicity.Web.Mvc).
+INFO  2020-08-17 16:40:08,989 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2020-08-17 16:40:09,147 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1384.3634ms.
+INFO  2020-08-17 16:40:09,148 [33   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc) in 1530.8633ms
+INFO  2020-08-17 16:40:09,148 [33   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.Web.PP.Controllers.StatesController.Index (OMTechStation.PropertyPublicity.Web.Mvc)'
+INFO  2020-08-17 16:40:09,149 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1563.9111ms 200 text/html; charset=utf-8
+DEBUG 2020-08-17 16:40:09,160 [33   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 9krIUrM28qJoXd4eYg6bNw
+INFO  2020-08-17 16:40:09,182 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 16:40:09,184 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 634416.6521ms 101 
+INFO  2020-08-17 16:40:09,225 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637332780671937161  
+INFO  2020-08-17 16:40:09,225 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637332780671937161  
+INFO  2020-08-17 16:40:09,226 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/states/Index.js?v=4wddsuAyFeqZ0a3UcPQptovtEwdI107YMRiSm2FJ4Kg  
+INFO  2020-08-17 16:40:09,240 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:40:09,243 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2020-08-17 16:40:09,244 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:40:09,247 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2020-08-17 16:40:09,252 [40   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2020-08-17 16:40:09,253 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 5.2385ms
+INFO  2020-08-17 16:40:09,253 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2020-08-17 16:40:09,254 [44   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/states/Index.js was not modified
+INFO  2020-08-17 16:40:09,254 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.1637ms 200 application/x-javascript
+INFO  2020-08-17 16:40:09,255 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.0382ms 304 application/javascript
+INFO  2020-08-17 16:40:09,276 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:40:09,277 [19   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 33.5396ms
+INFO  2020-08-17 16:40:09,277 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2020-08-17 16:40:09,278 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 52.5794ms 200 application/x-javascript; charset=utf-8
+INFO  2020-08-17 16:40:09,554 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2020-08-17 16:40:09,564 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:40:09,566 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-08-17 16:40:09,567 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.4213ms 200 application/json
+INFO  2020-08-17 16:40:09,667 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/State/GetAll?skipCount=0&maxResultCount=10 application/json 
+INFO  2020-08-17 16:40:09,686 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:40:09,690 [19   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "State"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[OMTechStation.PropertyPublicity.PP.States.Dto.StateDto]] GetAllAsync(OMTechStation.PropertyPublicity.PP.States.Dto.PageStateResultRequestDto) on controller OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService (OMTechStation.PropertyPublicity.Application).
+INFO  2020-08-17 16:40:09,708 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=xZ8NqzVTcFqxeoXYgDsccw  
+INFO  2020-08-17 16:40:09,735 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2020-08-17 16:40:09,754 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/img/favicon.ico  
+DEBUG 2020-08-17 16:40:09,774 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"xZ8NqzVTcFqxeoXYgDsccw","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2020-08-17T16:40:09.7696556+05:30","Properties":{}}
+DEBUG 2020-08-17 16:40:09,777 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: xZ8NqzVTcFqxeoXYgDsccw
+INFO  2020-08-17 16:40:09,794 [44   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\OTS\PropertyPublicity\src\OMTechStation.PropertyPublicity.Web.Mvc\wwwroot\img\favicon.ico'
+INFO  2020-08-17 16:40:09,795 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 40.8086ms 200 image/x-icon
+INFO  2020-08-17 16:40:09,922 [44   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-08-17 16:40:09,925 [44   ] c.Infrastructure.ControllerActionInvoker - Executed action OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application) in 234.9476ms
+INFO  2020-08-17 16:40:09,925 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'OMTechStation.PropertyPublicity.PP.States.Dto.StateAppService.GetAllAsync (OMTechStation.PropertyPublicity.Application)'
+INFO  2020-08-17 16:40:09,926 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 259.1658ms 200 application/json; charset=utf-8
+DEBUG 2020-08-17 16:47:41,539 [38   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: xZ8NqzVTcFqxeoXYgDsccw
+INFO  2020-08-17 16:47:41,540 [38   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-08-17 16:47:41,541 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 451832.8322ms 101 
