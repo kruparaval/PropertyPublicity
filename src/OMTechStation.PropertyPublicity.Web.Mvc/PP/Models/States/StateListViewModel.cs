@@ -1,4 +1,5 @@
-﻿using OMTechStation.PropertyPublicity.Roles.Dto;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using OMTechStation.PropertyPublicity.Roles.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,8 @@ namespace OMTechStation.PropertyPublicity.Web.PP.Models.States
 {
     public class StateListViewModel
     {
-        public IReadOnlyList<PermissionDto> Permissions { get; set; }
+        public List<SelectListItem> Countries { get; set; }
+        public int CountryId { get; set; }
 
     }
 }

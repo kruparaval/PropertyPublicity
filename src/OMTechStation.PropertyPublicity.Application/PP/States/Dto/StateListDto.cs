@@ -6,15 +6,14 @@ using System.Text;
 
 namespace OMTechStation.PropertyPublicity.PP.States.Dto
 {
-     public class StateListDto: EntityDto, IHasCreationTime
+    public class StateListDto : EntityDto, IHasCreationTime
     {
-         public string Name { get; set; }
-         public bool IsActive { get; set; }
-         public int CountryId { get; set; }
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+        public int CountryId { get; set; }
         public string CountryName { get; set; }
-         public DateTime CreationTime { get; set; } 
-
+        public DateTime CreationTime { get; set; }
     }
 
-   }
+}
 

@@ -56,7 +56,7 @@ namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
 
         public async Task<ListResultDto<CityListDto>> GetStatesAsync(GetCityInput input)
         {
-            var city = await Repository.GetAll().Include(s => s.State).WhereIf(
+            var city = await Repository.GetAll().WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();

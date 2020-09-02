@@ -13,16 +13,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace OMTechStation.PropertyPublicity.PP.States.Dto
 {
     public class StateAppService : AsyncCrudAppService<State, StateDto, int, PageStateResultRequestDto, CreateStateDto, StateDto>, IStateAppService
     {
         private readonly IRepository<State> _stateRepository;
+        private readonly IRepository<Country> _countryRepository;
 
-        public StateAppService(IRepository<State> stateRepository) : base(stateRepository)
+        public StateAppService(IRepository<State> stateRepository,
+            IRepository<Country> countryRepository) : base(stateRepository)
         {
             _stateRepository = stateRepository;
+            _countryRepository = countryRepository;
         }
         public override async Task<StateDto> CreateAsync(CreateStateDto input)
         {
@@ -46,10 +50,12 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
         public async Task<GetStateForEditOutput> GetStateForEdit(EntityDto input)
         {
             var state = await _stateRepository.GetAsync(input.Id);
+            var countries = _countryRepository.GetAll().Select(s => new SelectListItem() { Text = s.Name, Value = s.Id.ToString() }).ToList();
             var StateEditDto = ObjectMapper.Map<StateEditDto>(state);
             return new GetStateForEditOutput
             {
-                State = StateEditDto
+                State = StateEditDto,
+                Countries = countries
             };
         }
 

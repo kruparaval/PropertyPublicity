@@ -6,7 +6,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OMTechStation.PropertyPublicity.PP
 {
-     public class State : Entity
+    [Table("States")]
+    public class State : Entity
     {
         public string Name { get; set; }
         public bool IsActive { get; set; }

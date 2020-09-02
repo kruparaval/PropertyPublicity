@@ -7,11 +7,11 @@ namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
 {
     public class GetCityForEditOutput
     {
-        public CityEditDto City { get; set; }
+        public CityEditDto State { get; set; }
 
         public List<FlatPermissionDto> Permissions { get; set; }
 
         public List<string> GrantedPermissionNames { get; set; }
-        public CityEditDto State { get; internal set; }
+        public CityEditDto City { get; internal set; }
     }
 }

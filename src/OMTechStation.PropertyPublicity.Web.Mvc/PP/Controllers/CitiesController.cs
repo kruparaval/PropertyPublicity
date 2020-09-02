@@ -32,7 +32,7 @@ namespace OMTechStation.PropertyPublicity.Web.PP.Controllers
             return View(model);
         }
 
-        public async Task<ActionResult> EditModal(int stateId)
+        public async Task<ActionResult> EditModal(int cityId)
         {
             var output = await _CityAppService.GetCityForEdit(new EntityDto(cityId));
             var model = ObjectMapper.Map<EditCityModalViewModel>(output);
