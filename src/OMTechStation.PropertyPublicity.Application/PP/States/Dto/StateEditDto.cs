@@ -13,6 +13,7 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
         public string Name { get; set; }
 
         public bool IsActive { get; set; }
+        public int CountryId { get; set; }
     }
 
 }

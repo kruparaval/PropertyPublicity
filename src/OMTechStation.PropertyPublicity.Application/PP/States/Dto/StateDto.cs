@@ -7,7 +7,9 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
 {
     public class StateDto : EntityDto
     {
+        public int CountryId { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
+        public string CountryName { get; set; }
     }
 }

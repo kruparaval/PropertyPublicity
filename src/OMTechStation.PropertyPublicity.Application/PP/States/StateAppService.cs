@@ -28,21 +28,10 @@ namespace OMTechStation.PropertyPublicity.PP.States.Dto
             _stateRepository = stateRepository;
             _countryRepository = countryRepository;
         }
-        public override async Task<StateDto> CreateAsync(CreateStateDto input)
-        {
-            var state = ObjectMapper.Map<State>(input);
-            await Repository.InsertAsync(state);
-            return MapToEntityDto(state);
-        }
-
+        
         protected override IQueryable<State> CreateFilteredQuery(PageStateResultRequestDto input)
         {
-            return Repository.GetAll().WhereIf(!input.Keyword.IsNullOrWhiteSpace(), x => x.Name.Contains(input.Keyword));
-        }
-
-        protected override async Task<State> GetEntityByIdAsync(int id)
-        {
-            return await Repository.FirstOrDefaultAsync(x => x.Id == id);
+            return Repository.GetAll().Include(s => s.Country).WhereIf(!input.Keyword.IsNullOrWhiteSpace(), x => x.Name.Contains(input.Keyword));
         }
 
         protected override IQueryable<State> ApplySorting(IQueryable<State> query, PageStateResultRequestDto input) => query.OrderBy(s => s.Name);

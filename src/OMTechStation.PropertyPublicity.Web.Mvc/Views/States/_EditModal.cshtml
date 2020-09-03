@@ -3,6 +3,7 @@
 @model EditStateModalViewModel
 @{
     Layout = null;
+    int CountryId = Model.State.CountryId;
 }
 @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditState")))
 <form name="StateEditForm" state="form" class="form-horizontal">
@@ -11,9 +12,16 @@
         <div class="form-group row required">
             <label class="col-md-3 col-form-label" for="statename">@L("StateName")</label>
             <div class="col-md-9">
-                <input id="statename" class="form-control" type="text" name="Name" value="@Model.State.Name" ) required maxlength="32" minlength="2">
+                <input id="statename" class="form-control" type="text" name="Name" value="@Model.State.Name" required maxlength="32" minlength="2">
             </div>
         </div>
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="statename">@L("CountryName")</label>
+            <div class="col-md-9">
+                @Html.DropDownListFor(s => CountryId, Model.Countries)
+            </div>
+        </div>
+
         <div class="form-group row">
             <label class="col-md-3 col-form-label">@L("IsActive")</label>
             <div class="col-md-9">

@@ -10,7 +10,6 @@ namespace OMTechStation.PropertyPublicity.PP.States
 {
     public interface IStateAppService : IAsyncCrudAppService<StateDto, int, PageStateResultRequestDto, CreateStateDto, StateDto>
     {
-
         Task<GetStateForEditOutput> GetStateForEdit(EntityDto input);
         Task<ListResultDto<StateListDto>> GetStatesAsync(GetStateInput input);
     }
