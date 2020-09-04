@@ -15,6 +15,13 @@
                             <input id="cityname" type="text" name="Name" class="form-control" required maxlength="32" minlength="2">
                         </div>
                     </div>
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="cityname">@L("StateName")</label>
+                        <div class="col-md-9">
+                            @Html.DropDownListFor(s => s.StateId, Model.States)
+                        </div>
+                    </div>
+
                     <div class="form-group row">
                         <label class="col-md-3 col-form-label" for="CreateUserIsActive">@L("IsActive")</label>
                         <div class="col-md-9">

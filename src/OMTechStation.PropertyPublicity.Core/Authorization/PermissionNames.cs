@@ -13,6 +13,14 @@
         public const string Pages_Countries_Create = "Pages.Countries.Create";
         public const string Pages_Countries_Edit = "Pages.Countries.Edit";
         public const string Pages_Countries_Delete = "Pages.Countries.Delete";
+        public const string Pages_States = "Pages.States";
+        public const string Pages_States_Create = "Pages.States.Create";
+        public const string Pages_States_Edit = "Pages.States.Edit";
+        public const string Pages_States_Delete = "Pages.States.Delete";
+        public const string Pages_CIties = "Pages.Cities";
+        public const string Pages_Cities_Create = "Pages.Cities.Create";
+        public const string Pages_Cities_Edit = "Pages.Cities.Edit";
+        public const string Pages_Cities_Delete = "Pages.Cities.Delete";
 
         #endregion
     }

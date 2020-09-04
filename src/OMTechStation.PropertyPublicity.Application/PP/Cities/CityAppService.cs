@@ -13,60 +13,55 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using OMTechStation.PropertyPublicity.PP.cities;
+using OMTechStation.PropertyPublicity.PP.Cities;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using OMTechStation.PropertyPublicity.PP.States;
 
 namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
 {
     public class CityAppService : AsyncCrudAppService<City, CityDto, int, PageCityResultRequestDto, CreateCityDto, CityDto>, ICityAppService
     {
+        private readonly IRepository<State> _stateRepository;
         private readonly IRepository<City> _cityRepository;
 
-        public CityAppService(IRepository<City> cityRepository) : base(cityRepository)
+        public CityAppService(IRepository<City> cityRepository,
+            IRepository<State> stateRepository) : base(cityRepository)
         {
+            _stateRepository = stateRepository;
             _cityRepository = cityRepository;
-        }
-        public override async Task<CityDto> CreateAsync(CreateCityDto input)
-        {
-            var city = ObjectMapper.Map<City>(input);
-            await Repository.InsertAsync(city);
-            return MapToEntityDto(city);
         }
 
         protected override IQueryable<City> CreateFilteredQuery(PageCityResultRequestDto input)
         {
-            return Repository.GetAll().WhereIf(!input.Keyword.IsNullOrWhiteSpace(), x => x.Name.Contains(input.Keyword));
+            return Repository.GetAll().Include(s => s.State).WhereIf(!input.Keyword.IsNullOrWhiteSpace(), x => x.Name.Contains(input.Keyword));
         }
 
-        protected override async Task<City> GetEntityByIdAsync(int id)
+        protected override IQueryable<City> ApplySorting(IQueryable<City> query, PageCityResultRequestDto input)
         {
-            return await Repository.FirstOrDefaultAsync(x => x.Id == id);
+            return (IQueryable<City>)query.OrderBy(s => s.Name);
         }
-
-        protected override IQueryable<City> ApplySorting(IQueryable<City> query, PageCityResultRequestDto input) => query.OrderBy(s => s.Name);
 
         public async Task<GetCityForEditOutput> GetCityForEdit(EntityDto input)
         {
             var city = await _cityRepository.GetAsync(input.Id);
+            var states = _stateRepository.GetAll().Select(s => new SelectListItem() { Text = s.Name, Value = s.Id.ToString() }).ToList();
             var CityEditDto = ObjectMapper.Map<CityEditDto>(city);
             return new GetCityForEditOutput
             {
-                City = CityEditDto
+                City = CityEditDto,
+                States = states,
+               
             };
         }
 
-        public async Task<ListResultDto<CityListDto>> GetStatesAsync(GetCityInput input)
+        public async Task<ListResultDto<CityListDto>> GetCitiesAsync(GetCityInput input)
         {
-            var city = await Repository.GetAll().WhereIf(
+            var city = await Repository.GetAll().Include(s => s.State).WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();
 
             return new ListResultDto<CityListDto>(ObjectMapper.Map<List<CityListDto>>(city));
         }
-
-        public Task<ListResultDto<CityListDto>> GetCityAsync(GetCityInput input)
-        {
-            throw new NotImplementedException();
-        }
     }
-}                                                                                                                                                               
+}

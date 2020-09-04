@@ -7,13 +7,14 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OMTechStation.PropertyPublicity.PP.cities
+namespace OMTechStation.PropertyPublicity.PP.States
 {
     public interface ICityAppService : IAsyncCrudAppService<CityDto, int, PageCityResultRequestDto, CreateCityDto, CityDto>
     {
-
         Task<GetCityForEditOutput> GetCityForEdit(EntityDto input);
-        Task<ListResultDto<CityListDto>> GetCityAsync(GetCityInput input);
+        Task<ListResultDto<CityListDto>> GetCitiesAsync(GetCityInput input);
     }
 }
+
+
 

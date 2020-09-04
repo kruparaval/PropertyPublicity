@@ -8,10 +8,11 @@ namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
 {
      public class CityListDto: EntityDto, IHasCreationTime
     {
-         public string Name { get; set; }
-         public bool IsActive { get; set; }
-         public DateTime CreationTime { get; set; } 
-
+        public string Name { get; set; }
+        public bool IsActive { get; set; }
+        public int StateId { get; set; }
+        public string StateName { get; set; }
+        public DateTime CreationTime { get; set; }
     }
 
    }

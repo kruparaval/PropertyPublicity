@@ -1,13 +1,13 @@
 ﻿using Abp.Application.Services.Dto;
 using Microsoft.AspNetCore.Mvc;
 using OMTechStation.PropertyPublicity.Controllers;
-using OMTechStation.PropertyPublicity.PP.cities;
+using OMTechStation.PropertyPublicity.PP.Cities.Dto;
+using OMTechStation.PropertyPublicity.PP.Countries;
+using OMTechStation.PropertyPublicity.PP.Countries.Dto;
 using OMTechStation.PropertyPublicity.PP.States;
-using OMTechStation.PropertyPublicity.Web.Models.Roles;
+using OMTechStation.PropertyPublicity.PP.States.Dto;
 using OMTechStation.PropertyPublicity.Web.PP.Models.Cities;
 using OMTechStation.PropertyPublicity.Web.PP.Models.States;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,19 +15,29 @@ namespace OMTechStation.PropertyPublicity.Web.PP.Controllers
 {
     public class CitiesController : PropertyPublicityControllerBase
     {
+        private readonly IStateAppService _StateAppService;
         private readonly ICityAppService _CityAppService;
-        private int cityId;
 
-        public CitiesController(ICityAppService CityAppService)
+        public CitiesController(ICityAppService CityAppService,
+            IStateAppService StateAppService)
         {
+            _StateAppService = StateAppService;
             _CityAppService = CityAppService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var model = new CityListViewModel
             {
+
             };
+
+            var list = await _StateAppService.GetAllAsync(new PageStateResultRequestDto());
+            model.States = list.Items.Select(s => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem()
+            {
+                Text = s.Name,
+                Value = s.Id.ToString()
+            }).ToList();
 
             return View(model);
         }
@@ -41,7 +51,3 @@ namespace OMTechStation.PropertyPublicity.Web.PP.Controllers
         }
     }
 }
-
-
-    
-

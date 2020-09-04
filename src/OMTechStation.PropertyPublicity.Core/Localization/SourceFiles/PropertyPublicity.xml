@@ -10,6 +10,9 @@
 	  <text name="Cities" value="Cities" />
 	  <text name="CityName" value="City Name" />
 	   <text name="CreateNewCity" value="Create New City" />
+	  	   <text name="StateLabel" value="State" />
+	  	   <text name="CountryLabel" value="Country" />
+
 
 
 

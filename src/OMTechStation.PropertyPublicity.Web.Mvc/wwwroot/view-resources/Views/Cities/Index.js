@@ -53,9 +53,15 @@
                 data: 'isActive',
                 sortable: false,
                 render: data => `<span class="fa fa-${data ? 'check' : 'times'}" style="color:${data ? 'green' : 'red'}"></span>`
-            },            
+            }, 
             {
                 targets: 3,
+                data: 'stateName',
+                sortable: false
+            },
+
+            {
+                targets: 4,
                 data: null,
                 sortable: false,
                 autoWidth: false,
@@ -82,69 +88,59 @@
         }
 
         var city = _$form.serializeFormToObject();
-        city.grantedPermissions = [];
-        var _$permissionCheckboxes = _$form[0].querySelectorAll("input[name='permission']:checked");
-        if (_$permissionCheckboxes) {
-            for (var permissionIndex = 0; permissionIndex < _$permissionCheckboxes.length; permissionIndex++) {
-                var _$permissionCheckbox = $(_$permissionCheckboxes[permissionIndex]);
-                city.grantedPermissions.push(_$permissionCheckbox.val());
-            }
-        }
-
-       
         abp.ui.setBusy(_$modal);
-        _countryService
-            .create(country)
+        _cityService
+            .create(city)
             .done(function () {
                 _$modal.modal('hide');
                 _$form[0].reset();
                 abp.notify.info(l('SavedSuccessfully'));
-                _$countriesTable.ajax.reload();
+                _$citiesTable.ajax.reload();
             })
             .always(function () {
                 abp.ui.clearBusy(_$modal);
             });
     });
 
-    $(document).on('click', '.delete-country', function () {
-        var countryId = $(this).attr("data-country-id");
-        var countryName = $(this).attr('data-country-name');
+    $(document).on('click', '.delete-city', function () {
+        var cityId = $(this).attr("data-city-id");
+        var cityName = $(this).attr('data-city-name');
 
-        deleteCountry(countryId, countryName);
+        deleteState(cityId, cityName);
     });
 
-    $(document).on('click', '.edit-country', function (e) {
-        var countryId = $(this).attr("data-country-id");
+    $(document).on('click', '.edit-city', function (e) {
+        var cityId = $(this).attr("data-city-id");
 
         e.preventDefault();
         abp.ajax({
-            url: abp.appPath + 'Countries/EditModal?countryId=' + countryId,
+            url: abp.appPath + 'Cities/EditModal?cityId=' + cityId,
             type: 'POST',
             dataType: 'html',
             success: function (content) {
-                $('#CountryEditModal div.modal-content').html(content);
+                $('#CityEditModal div.modal-content').html(content);
             },
             error: function (e) { }
         })
     });
 
-    abp.event.on('country.edited', (data) => {
-        _$countriesTable.ajax.reload();
+    abp.event.on('city.edited', (data) => {
+        _$citiesTable.ajax.reload();
     });
 
-    function deleteCountry(countryId, countryName) {
+    function deleteState(cityId, cityName) {
         abp.message.confirm(
             abp.utils.formatString(
                 l('AreYouSureWantToDelete'),
-                countryName),
+                cityName),
             null,
             (isConfirmed) => {
                 if (isConfirmed) {
-                    _countryService.delete({
-                        id: countryId
+                    _cityService.delete({
+                        id: cityId
                     }).done(() => {
                         abp.notify.info(l('SuccessfullyDeleted'));
-                        _$countriesTable.ajax.reload();
+                        _$citiesTable.ajax.reload();
                     });
                 }
             }
@@ -158,12 +154,12 @@
     });
 
     $('.btn-search').on('click', (e) => {
-        _$countriesTable.ajax.reload();
+        _$citiesTable.ajax.reload();
     });
 
     $('.txt-search').on('keypress', (e) => {
         if (e.which == 13) {
-            _$countriesTable.ajax.reload();
+            _$citiesTable.ajax.reload();
             return false;
         }
     });

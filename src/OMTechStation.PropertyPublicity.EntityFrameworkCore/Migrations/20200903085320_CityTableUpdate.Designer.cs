@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OMTechStation.PropertyPublicity.EntityFrameworkCore;
 
 namespace OMTechStation.PropertyPublicity.Migrations
 {
     [DbContext(typeof(PropertyPublicityDbContext))]
-    partial class PropertyPublicityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200903085320_CityTableUpdate")]
+    partial class CityTableUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
