@@ -1,0 +1,25 @@
+﻿DEBUG 2020-09-05 13:48:52,301 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-05 13:48:54,139 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2020-09-05 13:48:54,566 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.Migrator.PropertyPublicityMigratorModule, OMTechStation.PropertyPublicity.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,569 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityEntityFrameworkModule, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: OMTechStation.PropertyPublicity.PropertyPublicityCoreModule, OMTechStation.PropertyPublicity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:54,588 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2020-09-05 13:48:56,034 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: OMTechStation.PropertyPublicity.EntityFrameworkCore.PropertyPublicityDbContext, OMTechStation.PropertyPublicity.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-05 13:48:57,522 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2020-09-05 13:48:57,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-05 13:48:57,697 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-05 13:48:57,709 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PropertyPublicity
+INFO  2020-09-05 13:48:58,353 [1    ] chStation.PropertyPublicity.Migrator.Log - Host database: server=sql5080.site4now.net;database=DB_A66FC2_abpkrupa;user=DB_A66FC2_abpkrupa_admin;password=*****
+INFO  2020-09-05 13:48:58,399 [1    ] chStation.PropertyPublicity.Migrator.Log - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-09-05 13:50:17,921 [1    ] chStation.PropertyPublicity.Migrator.Log - HOST database migration started...
+INFO  2020-09-05 13:52:04,158 [1    ] chStation.PropertyPublicity.Migrator.Log - HOST database migration completed.
+INFO  2020-09-05 13:52:04,159 [1    ] chStation.PropertyPublicity.Migrator.Log - --------------------------------------------------------
+INFO  2020-09-05 13:52:05,064 [1    ] chStation.PropertyPublicity.Migrator.Log - All databases have been migrated.
+DEBUG 2020-09-05 13:53:04,257 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-09-05 13:53:04,258 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.

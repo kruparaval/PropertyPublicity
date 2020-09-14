@@ -16,6 +16,7 @@ namespace OMTechStation.PropertyPublicity.EntityFrameworkCore
 
         public DbSet<City> Cities { get; set; }
 
+        public DbSet<Area> Areas { get; set; }
 
         public PropertyPublicityDbContext(DbContextOptions<PropertyPublicityDbContext> options)
             : base(options)

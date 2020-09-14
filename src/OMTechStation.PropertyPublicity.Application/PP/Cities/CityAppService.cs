@@ -54,14 +54,14 @@ namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
             };
         }
 
-        public async Task<ListResultDto<CityListDto>> GetCitiesAsync(GetCityInput input)
+        public async Task<ListResultDto<AreaListDto>> GetCitiesAsync(GetCityInput input)
         {
             var city = await Repository.GetAll().Include(s => s.State).WhereIf(
                     !input.Filter.IsNullOrWhiteSpace(),
                     r => r.Name.Contains(input.Filter)
                 ).ToListAsync();
 
-            return new ListResultDto<CityListDto>(ObjectMapper.Map<List<CityListDto>>(city));
+            return new ListResultDto<AreaListDto>(ObjectMapper.Map<List<AreaListDto>>(city));
         }
     }
 }

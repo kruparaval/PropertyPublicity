@@ -21,6 +21,10 @@
         public const string Pages_Cities_Create = "Pages.Cities.Create";
         public const string Pages_Cities_Edit = "Pages.Cities.Edit";
         public const string Pages_Cities_Delete = "Pages.Cities.Delete";
+        public const string Pages_Areas = "Pages.Areas";
+        public const string Pages_Areas_Create = "Pages.Areas.Create";
+        public const string Pages_Areas_Edit = "Pages.Areas.Edit";
+        public const string Pages_Areas_Delete = "Pages.Areas.Delete";
 
         #endregion
     }

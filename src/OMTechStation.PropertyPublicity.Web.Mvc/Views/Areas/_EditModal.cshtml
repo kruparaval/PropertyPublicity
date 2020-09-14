@@ -1,0 +1,38 @@
+﻿@using OMTechStation.PropertyPublicity.Web.PP.Models.Areas
+@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+@model EditAreaModalViewModel
+@{
+    Layout = null;
+    int CityId = Model.Area.AreaId;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditArea")))
+<form name="AreaEditForm" area="form" class="form-horizontal">
+    <input type="hidden" name="Id" value="@Model.Area.Id" />
+    <div class="modal-body">
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="areaname">@L("AreaName")</label>
+            <div class="col-md-9">
+                <input id="areaname" class="form-control" type="text" name="Name" value="@Model.Area.Name" required maxlength="32" minlength="2">
+            </div>
+        </div>
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="areaname">@L("CityName")</label>
+            <div class="col-md-9">
+                @Html.DropDownListFor(s => CityId, Model.Cities)
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-md-3 col-form-label">@L("IsActive")</label>
+            <div class="col-md-9">
+                <div class="col-md-6">
+                    <input type="checkbox" name="IsActive" value="true" id="@Model.Area.IsActive" @(Model.Area.IsActive ? "checked" : "") />
+                    <label for="@Model.Area.IsActive"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+</form>
+
+<script src="~/view-resources/Views/Areas/_EditModal.js" asp-append-version="true"></script>

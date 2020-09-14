@@ -1,0 +1,13 @@
+Property Type                              Country
+No of Bathooms                            State 
+No of Bedrooms                            City
+Area
+Enterance Facing
+Sale Type
+Furnishing
+Consruction Type
+posted By
+Car parking
+Area
+Streets
+Aminities

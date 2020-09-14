@@ -3,11 +3,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
+namespace OMTechStation.PropertyPublicity.PP.Areas.Dto
 {
-    public class CityMapProfile : Profile
+    public class AreaMapProfile : Profile
     {
-        public CityMapProfile()
+        public AreaMapProfile()
         {
             //CreateMap<CreateCountryDto, Country>();
             //CreateMap<CountryDto, Country>();
@@ -17,11 +17,11 @@ namespace OMTechStation.PropertyPublicity.PP.Cities.Dto
             //CreateMap<GetCountryInput, Country>();
             //CreateMap<PageCountryResultRequestDto, Country>();         
 
-            CreateMap<CreateCityDto, City>();
-            CreateMap<CityDto, City>();
-            CreateMap<City, CityDto>();
-            CreateMap<City, AreaListDto>();
-            CreateMap<City, CityEditDto>();
+            CreateMap<CreateAreaDto, Area>();
+            CreateMap<AreaDto, Area>();
+            CreateMap<Area, AreaDto>();
+            CreateMap<Area, AreaListDto>();
+            CreateMap<Area, AreaEditDto>();
         }
     }
 }

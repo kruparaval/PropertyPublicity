@@ -12,6 +12,11 @@
 	   <text name="CreateNewCity" value="Create New City" />
 	  	   <text name="StateLabel" value="State" />
 	  	   <text name="CountryLabel" value="Country" />
+	  <text name="AreaName" value="Area Name" />
+	  <text name="CreateNewArea" value="Create New Area" />
+	  <text name="CityLabel" value="City" />
+	  
+
 
 
 

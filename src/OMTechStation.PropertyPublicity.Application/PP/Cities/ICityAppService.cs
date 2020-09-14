@@ -12,7 +12,7 @@ namespace OMTechStation.PropertyPublicity.PP.States
     public interface ICityAppService : IAsyncCrudAppService<CityDto, int, PageCityResultRequestDto, CreateCityDto, CityDto>
     {
         Task<GetCityForEditOutput> GetCityForEdit(EntityDto input);
-        Task<ListResultDto<CityListDto>> GetCitiesAsync(GetCityInput input);
+        Task<ListResultDto<AreaListDto>> GetCitiesAsync(GetCityInput input);
     }
 }
 
