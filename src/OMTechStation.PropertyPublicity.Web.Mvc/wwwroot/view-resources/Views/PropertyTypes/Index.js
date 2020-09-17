@@ -1,21 +1,21 @@
 ﻿(function ($) {
-    var _countryService = abp.services.app.country,
+    var _propertytypeService = abp.services.app.propertyType,
         l = abp.localization.getSource('PropertyPublicity'),
-        _$modal = $('#CountryCreateModal'),
+        _$modal = $('#PropertyTypeCreateModal'),
         _$form = _$modal.find('form'),
-        _$table = $('#CountriesTable');
+        _$table = $('#PropertyTypesTable');
 
 
-    var _$countriesTable = _$table.DataTable({
+    var _$propertytypesTable = _$table.DataTable({
         paging: true,
         serverSide: true,
         ajax: function (data, callback, settings) {
-            var filter = $('#CountrySearchForm').serializeFormToObject(true);
+            var filter = $('#PropertytypeSearchForm').serializeFormToObject(true);
             filter.maxResultCount = data.length;
             filter.skipCount = data.start;
 
             abp.ui.setBusy(_$table);
-            _countryService.getAll(filter).done(function (result) {
+            _propertytypeService.getAll(filter).done(function (result) {
                 callback({
                     recordsTotal: result.totalCount,
                     recordsFiltered: result.totalCount,
@@ -29,7 +29,7 @@
             {
                 name: 'refresh',
                 text: '<i class="fas fa-redo-alt"></i>',
-                action: () => _$countriesTable.draw(false)
+                action: () => _$PropertyTypesTable.draw(false)
             }
         ],
         responsive: {
@@ -48,24 +48,19 @@
                 data: 'name',
                 sortable: false
             },
+            
             {
                 targets: 2,
-                data: 'isActive',
-                sortable: false,
-                render: data => `<span class="fa fa-${data ? 'check' : 'times'}" style="color:${data ? 'green' : 'red'}"></span>`
-            },            
-            {
-                targets: 3,
                 data: null,
                 sortable: false,
                 autoWidth: false,
                 defaultContent: '',
                 render: (data, type, row, meta) => {
                     return [
-                        `   <button type="button" class="btn btn-sm bg-secondary edit-country" data-country-id="${row.id}" data-toggle="modal" data-target="#CountryEditModal">`,
+                        `   <button type="button" class="btn btn-sm bg-secondary edit-propertytype" data-propertytype-id="${row.id}" data-toggle="modal" data-target="#PropertyTypeEditModal">`,
                         `       <i class="fas fa-pencil-alt"></i> ${l('Edit')}`,
                         '   </button>',
-                        `   <button type="button" class="btn btn-sm bg-danger delete-country" data-country-id="${row.id}" data-country-name="${row.name}">`,
+                        `   <button type="button" class="btn btn-sm bg-danger delete-propertytype" data-propertytype-id="${row.id}" data-propertytype-name="${row.name}">`,
                         `       <i class="fas fa-trash"></i> ${l('Delete')}`,
                         '   </button>',
                     ].join('');
@@ -80,59 +75,61 @@
         if (!_$form.valid()) {
             return;
         }
+
+        var propertytype = _$form.serializeFormToObject();
         abp.ui.setBusy(_$modal);
-        _countryService
-            .create(country)
+        _propertytypeService
+            .create(propertytype)
             .done(function () {
                 _$modal.modal('hide');
                 _$form[0].reset();
                 abp.notify.info(l('SavedSuccessfully'));
-                _$countriesTable.ajax.reload();
+                _$propertytypesTable.ajax.reload();
             })
             .always(function () {
                 abp.ui.clearBusy(_$modal);
             });
     });
 
-    $(document).on('click', '.delete-country', function () {
-        var countryId = $(this).attr("data-country-id");
-        var countryName = $(this).attr('data-country-name');
+    $(document).on('click', '.delete-propertytype', function () {
+        var propertytypeId = $(this).attr("data-propertytype-id");
+        var PropertytypeName = $(this).attr('data-propertytype-name');
 
-        deleteCountry(countryId, countryName);
+        deletepropertytype(propertytypeId, PropertytypeName);
     });
 
-    $(document).on('click', '.edit-country', function (e) {
-        var countryId = $(this).attr("data-country-id");
+    $(document).on('click', '.edit-propertytype', function (e) {
+        var propertytypeId = $(this).attr("data-propertytype-id");
 
         e.preventDefault();
         abp.ajax({
-            url: abp.appPath + 'Countries/EditModal?countryId=' + countryId,
+            url: abp.appPath + 'Propertytypes/EditModal?propertytypeId=' + propertytypeId,
             type: 'POST',
             dataType: 'html',
             success: function (content) {
-                $('#CountryEditModal div.modal-content').html(content);
+                $('#PropertyTypeEditModal div.modal-content').html(content);
             },
             error: function (e) { }
         })
     });
 
-    abp.event.on('country.edited', (data) => {
-        _$countriesTable.ajax.reload();
+    abp.event.on('propertytype.edited', (data) => {
+        _$propertytypesTable.ajax.reload();
     });
 
-    function deleteCountry(countryId, countryName) {
+    function deletepropertytype(propertytypeId, propertytypeName) {
         abp.message.confirm(
             abp.utils.formatString(
                 l('AreYouSureWantToDelete'),
-                countryName),
+                propertytypeName),
             null,
             (isConfirmed) => {
                 if (isConfirmed) {
-                    _countryService.delete({
-                        id: countryId
+                    _propertytypeService.delete({
+                        id: propertytypeId
                     }).done(() => {
                         abp.notify.info(l('SuccessfullyDeleted'));
-                        _$countriesTable.ajax.reload();
+                        _$PropertytypesTable.ajax.reload();
                     });
                 }
             }
@@ -146,12 +143,12 @@
     });
 
     $('.btn-search').on('click', (e) => {
-        _$countriesTable.ajax.reload();
+        _$propertytypesTable.ajax.reload();
     });
 
     $('.txt-search').on('keypress', (e) => {
         if (e.which == 13) {
-            _$countriesTable.ajax.reload();
+            _$propertytypesTable.ajax.reload();
             return false;
         }
     });

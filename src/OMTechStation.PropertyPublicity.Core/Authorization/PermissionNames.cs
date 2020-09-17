@@ -25,6 +25,10 @@
         public const string Pages_Areas_Create = "Pages.Areas.Create";
         public const string Pages_Areas_Edit = "Pages.Areas.Edit";
         public const string Pages_Areas_Delete = "Pages.Areas.Delete";
+        public const string Pages_PropertyTypes = "Pages.Propertytypes";
+        public const string Pages_PropertyTypes_Create = "Pages.PropertyTypes.Create";
+        public const string Pages_PropertyTypes_Edit = "Pages.PropertyTypes.Edit";
+        public const string Pages_PropertyTypes_Delete = "Pages.PropertyTypes.Delete";
 
         #endregion
     }

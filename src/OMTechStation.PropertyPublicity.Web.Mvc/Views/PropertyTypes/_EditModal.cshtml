@@ -1,0 +1,26 @@
+﻿@using OMTechStation.PropertyPublicity.Web.PP.Models.PropertyTypes
+@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+
+@model EditPropertyTypeModalViewModel
+@{
+    Layout = null;
+    int Id = Model.PropertyType.Id;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditPropertyType")))
+<form name="PropertyTypeEditForm" propertyType="form" class="form-horizontal">
+    <input type="hidden" name="Id" value="@Model.PropertyType.Id" />
+    <div class="modal-body">
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="propertyTypename">@L("PropertyTypeName")</label>
+            <div class="col-md-9">
+                <input id="propertyTypename" class="form-control" type="text" name="Name" value="@Model.PropertyType.Name" required maxlength="32" minlength="2">
+            </div>
+        </div>
+        
+            
+        
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+</form>
+
+<script src="~/view-resources/Views/PropertyTypes/_EditModal.js" asp-append-version="true"></script>

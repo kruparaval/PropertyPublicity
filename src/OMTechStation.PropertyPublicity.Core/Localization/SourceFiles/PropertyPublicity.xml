@@ -15,8 +15,8 @@
 	  <text name="AreaName" value="Area Name" />
 	  <text name="CreateNewArea" value="Create New Area" />
 	  <text name="CityLabel" value="City" />
-	  
-
+	  <text name="PropertyTypeName" value="Name" />
+	  <text name="PropertyTypesLabel" value="Property Types" />
 
 
 

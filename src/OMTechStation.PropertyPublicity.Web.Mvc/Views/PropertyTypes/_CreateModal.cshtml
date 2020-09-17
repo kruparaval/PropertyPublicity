@@ -1,0 +1,26 @@
+﻿@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+@model OMTechStation.PropertyPublicity.Web.PP.Models.PropertyTypes.PropertyTypeListViewModel
+@{
+    Layout = null;
+}
+<div class="modal fade" id="PropertyTypeCreateModal" tabindex="-1" City="dialog" aria-labelledby="PropertyTypeCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" PropertyType="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewPropertyType")))
+            <form name="PropertyTypeCreateForm" PropertyType="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="PropertyTypename">@L("PropertyTypeName")</label>
+                        <div class="col-md-9">
+                            <input id="PropertyTypename" type="text" name="Name" class="form-control" required maxlength="32" minlength="2">
+                        </div>
+                    </div>
+                    
+
+               </div>
+
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>

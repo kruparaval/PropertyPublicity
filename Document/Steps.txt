@@ -1,0 +1,20 @@
+Steps:-
+
+
+(1)In .core project->PP folder create two model class.
+
+(2)In dbContext add dbContext name.
+
+(3)Add migration.
+
+(4)update database.
+
+(5)Create Permission.
+
+(6)Create Service.
+
+(7)Create Controller.
+
+(8)Create View Files.
+
+(9)Add js client side script.
