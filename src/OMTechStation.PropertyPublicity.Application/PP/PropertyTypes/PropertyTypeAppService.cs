@@ -20,7 +20,7 @@ using OMTechStation.PropertyPublicity.PP.States;
 
 namespace OMTechStation.PropertyPublicity.PP.PropertyTypes.Dto
 {
-    public class PropertyTypeAppService : AsyncCrudAppService<PropertyType, PropertyTypeDto, int, PagePropertyTypeResultRequestDto, CreatePropertyTypeDto, PropertyTypeDto>, IPropertyTypeAppService
+    public class PropertyTypeAppService : AsyncCrudAppService<PropertyType, AminityDto, int, PagePropertyTypeResultRequestDto, CreatePropertyTypeDto, AminityDto>, IPropertyTypeAppService
     {
         private readonly IRepository<PropertyType> _propertyTypeRepository;
         public PropertyTypeAppService(IRepository<PropertyType> propertyTypeRepository) :base(propertyTypeRepository)

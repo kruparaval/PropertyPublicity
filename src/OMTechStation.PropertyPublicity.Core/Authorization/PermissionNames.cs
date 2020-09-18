@@ -29,6 +29,11 @@
         public const string Pages_PropertyTypes_Create = "Pages.PropertyTypes.Create";
         public const string Pages_PropertyTypes_Edit = "Pages.PropertyTypes.Edit";
         public const string Pages_PropertyTypes_Delete = "Pages.PropertyTypes.Delete";
+        public const string Pages_Aminities = "Pages.Aminities";
+        public const string Pages_Aminities_Create = "Pages.Aminities.Create";
+        public const string Pages_Aminities_Edit = "Pages.Aminities.Edit";
+        public const string Pages_Aminities_Delete = "Pages.Aminities.Delete";
+
 
         #endregion
     }

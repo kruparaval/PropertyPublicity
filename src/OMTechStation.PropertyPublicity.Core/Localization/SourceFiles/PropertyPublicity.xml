@@ -17,6 +17,8 @@
 	  <text name="CityLabel" value="City" />
 	  <text name="PropertyTypeName" value="Name" />
 	  <text name="PropertyTypesLabel" value="Property Types" />
+	  <text name="AminityName" value="Name" />
+	  <text name="AminitiesLabel" value="Aminities" />
 
 
 

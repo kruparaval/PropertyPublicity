@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace OMTechStation.PropertyPublicity.PP.PropertyTypes
 {
-    public interface IPropertyTypeAppService : IAsyncCrudAppService<PropertyTypeDto, int, PagePropertyTypeResultRequestDto, CreatePropertyTypeDto, PropertyTypeDto>
+    public interface IPropertyTypeAppService : IAsyncCrudAppService<AminityDto, int, PagePropertyTypeResultRequestDto, CreatePropertyTypeDto, AminityDto>
     {
         Task<GetPropertyTypeForEditOutput> GetPropertyTypeForEdit(EntityDto input);
         Task<ListResultDto<Dto.PropertyTypeListDto>> GetPropertyTypesAsync(GetPropertyTypeInput input);

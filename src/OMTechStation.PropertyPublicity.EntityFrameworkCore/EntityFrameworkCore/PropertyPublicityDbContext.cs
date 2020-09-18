@@ -20,6 +20,9 @@ namespace OMTechStation.PropertyPublicity.EntityFrameworkCore
 
         public DbSet<PropertyType> PropertyTypes { get; set; }
 
+        public DbSet<Aminity> Aminities { get; set; }
+
+
         public PropertyPublicityDbContext(DbContextOptions<PropertyPublicityDbContext> options)
             : base(options)
         {

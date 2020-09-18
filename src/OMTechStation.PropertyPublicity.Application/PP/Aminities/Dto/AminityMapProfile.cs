@@ -5,11 +5,11 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace OMTechStation.PropertyPublicity.PP.PropertyTypes.Dto
+namespace OMTechStation.PropertyPublicity.PP.Aminities.Dto
 {
-    public class PropertyTypeMapProfile : Profile
+    public class AminityMapProfile : Profile
     {
-        public PropertyTypeMapProfile()
+        public AminityMapProfile()
         {
             //CreateMap<CreateCountryDto, Country>();
             //CreateMap<CountryDto, Country>();
@@ -19,11 +19,11 @@ namespace OMTechStation.PropertyPublicity.PP.PropertyTypes.Dto
             //CreateMap<GetCountryInput, Country>();
             //CreateMap<PageCountryResultRequestDto, Country>();         
 
-            CreateMap<CreatePropertyTypeDto, PropertyType>();
-            CreateMap<AminityDto, PropertyType>();
-            CreateMap<PropertyType, AminityDto>();
-            CreateMap<PropertyType, PropertyTypeListDto>();
-            CreateMap<PropertyType, PropertyTypeEditDto>();
+            CreateMap<CreateAminityDto, Aminity>();
+            CreateMap<AminityDto, Aminity>();
+            CreateMap<Aminity, AminityDto>();
+            CreateMap<Aminity, AminityListDto>();
+            CreateMap<Aminity, AminityEditDto>();
         }
     }
 }

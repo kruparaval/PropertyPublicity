@@ -1,0 +1,26 @@
+﻿@using OMTechStation.PropertyPublicity.Web.PP.Models.Aminities
+@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+
+@model EditAminityModalViewModel
+@{
+    Layout = null;
+    int Id = Model.Aminity.Id;
+}
+@await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("EditAminity")))
+<form name="AminityEditForm" aminity="form" class="form-horizontal">
+    <input type="hidden" name="Id" value="@Model.Aminity.Id" />
+    <div class="modal-body">
+        <div class="form-group row required">
+            <label class="col-md-3 col-form-label" for="aminityname">@L("AminityName")</label>
+            <div class="col-md-9">
+                <input id="aminityname" class="form-control" type="text" name="Name" value="@Model.Aminity.Name" required maxlength="32" minlength="2">
+            </div>
+        </div>
+        
+            
+        
+    </div>
+    @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+</form>
+
+<script src="~/view-resources/Views/Aminities/_EditModal.js" asp-append-version="true"></script>

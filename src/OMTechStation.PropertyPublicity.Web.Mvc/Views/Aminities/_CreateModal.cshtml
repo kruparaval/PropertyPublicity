@@ -1,0 +1,26 @@
+﻿@using OMTechStation.PropertyPublicity.Web.Models.Common.Modals
+@model OMTechStation.PropertyPublicity.Web.PP.Models.Aminities.AminityListViewModel
+@{
+    Layout = null;
+}
+<div class="modal fade" id="AminityCreateModal" tabindex="-1" Aminity="dialog" aria-labelledby="AminityCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" Aminity="document">
+        <div class="modal-content">
+            @await Html.PartialAsync("~/Views/Shared/Modals/_ModalHeader.cshtml", new ModalHeaderViewModel(L("CreateNewAminity")))
+            <form name="AminityCreateForm" Aminity="form" class="form-horizontal">
+                <div class="modal-body">
+                    <div class="form-group row required">
+                        <label class="col-md-3 col-form-label" for="Aminityname">@L("AminityName")</label>
+                        <div class="col-md-9">
+                            <input id="Aminityname" type="text" name="Name" class="form-control" required maxlength="32" minlength="2">
+                        </div>
+                    </div>
+                    
+
+               </div>
+
+                @await Html.PartialAsync("~/Views/Shared/Modals/_ModalFooterWithSaveAndCancel.cshtml")
+            </form>
+        </div>
+    </div>
+</div>
